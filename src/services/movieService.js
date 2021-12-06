@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { useSelector } from 'react-redux';
 import getToken from './tokenService';
 
 const ENDPOINT = 'https://api.kvikmyndir.is/movies';
@@ -31,9 +32,8 @@ const movieService = {
     } catch (err) { console.log(err); }
   },
 
-  getMoviesByCinemaId: async (cinemaId) => {
+  getMoviesByCinemaId: async (cinemaId, movies) => {
     const cinemaMovies = [];
-    const movies = await movieService.getAllMovies();
     for (let i = 0; i < movies.length; i += 1) {
       const movieShows = movies[i].showtimes;
       for (let k = 0; k < movieShows.length; i += 1) {
@@ -42,6 +42,8 @@ const movieService = {
         }
       }
     }
+    console.log(`in service${cinemaMovies}`);
+    return cinemaMovies;
   },
 };
 
