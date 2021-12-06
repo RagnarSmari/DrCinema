@@ -1,0 +1,4627 @@
+[
+  {
+    "_id": "61a794d2304012cd79760139",
+    "id": 12651,
+    "ids": {
+      "imdb": "4513678",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Ghostbusters: Afterlife",
+    "alternativeTitles": "",
+    "year": "2020",
+    "certificateIS": "9 ára",
+    "durationMinutes": 124,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 5,
+        "Name": "Hrollvekja",
+        "NameEN\t": "Horror"
+      },
+      {
+        "ID": 8,
+        "Name": "Glæpamynd",
+        "NameEN\t": "Crime"
+      },
+      {
+        "ID": 31,
+        "Name": "Vísindaskáldskapur",
+        "NameEN\t": "Sci-Fi"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/ghost-1634662128.jpg",
+    "actors_abridged": [
+      {
+        "name": "Finn Wolfhard"
+      },
+      {
+        "name": "Mckenna Grace"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Jason Reitman"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.7",
+      "rotten_audience": null,
+      "rotten_critics": "0"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "15.10 (2)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78638&visLang=1"
+          },
+          {
+            "time": "16.40 (S)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78643&visLang=1"
+          },
+          {
+            "time": "17.10 (X)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78644&visLang=1"
+          },
+          {
+            "time": "19.20 (S)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78648&visLang=1"
+          },
+          {
+            "time": "19.40 (X)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78632&visLang=1"
+          },
+          {
+            "time": "20.30 (2)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78653&visLang=1"
+          },
+          {
+            "time": "21.50 (S)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78655&visLang=1"
+          },
+          {
+            "time": "22.10 (X)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78657&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "18.20 (1)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=0000000003&txtSessionId=33515&visLang=1"
+          },
+          {
+            "time": "21.00 (1)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=0000000003&txtSessionId=33513&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 3,
+          "name": "Borgarbíó"
+        },
+        "schedule": [
+          {
+            "time": "17.40 (r)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=0000000004&txtSessionId=4826&visLang=1"
+          },
+          {
+            "time": "20.00 (r)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=0000000004&txtSessionId=4794&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 4,
+          "name": "Laugarásbíó"
+        },
+        "schedule": [
+          {
+            "time": "18:00 (L)",
+            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/624215/"
+          },
+          {
+            "time": "21:10 (A)",
+            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/624218/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "16:50 (P)",
+            "purchase_url": "http://www.sambio.is/websales/show/326268/"
+          },
+          {
+            "time": "17:20 (A)",
+            "purchase_url": "http://www.sambio.is/websales/show/326197/"
+          },
+          {
+            "time": "19:20 (P)",
+            "purchase_url": "http://www.sambio.is/websales/show/326269/"
+          },
+          {
+            "time": "19:20 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/326208/"
+          },
+          {
+            "time": "20:20 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/326221/"
+          },
+          {
+            "time": "22:00 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/326209/"
+          },
+          {
+            "time": "22:00 (P)",
+            "purchase_url": "http://www.sambio.is/websales/show/326279/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
+        "schedule": [
+          {
+            "time": "16:00 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/326246/"
+          },
+          {
+            "time": "18:20 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/326235/"
+          },
+          {
+            "time": "21:00 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/326236/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "17:10 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/326927/"
+          },
+          {
+            "time": "19:40 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/326928/"
+          },
+          {
+            "time": "22:10 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/326917/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 9,
+          "name": "Sambíóin, Akureyri"
+        },
+        "schedule": [
+          {
+            "time": "17:20 (B)",
+            "purchase_url": "http://www.sambio.is/websales/show/326262/"
+          },
+          {
+            "time": "19:40 (A)",
+            "purchase_url": "http://www.sambio.is/websales/show/326255/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "9 ára",
+      "color": "orange",
+      "number": "9"
+    },
+    "trailers": [
+      {
+        "id": 425909,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official International Trailer",
+            "key": "lnKmAVLC3jU",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-10-18 13:33:22 UTC",
+            "id": "616dbfe453866e0026cd5b37",
+            "url": "https://www.youtube.com/embed/lnKmAVLC3jU?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer 2",
+            "key": "HR-WxNVLZhQ",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-07-27 13:00:07 UTC",
+            "id": "610003fe38e510007495ee51",
+            "url": "https://www.youtube.com/embed/HR-WxNVLZhQ?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Passing the Proton Pack",
+            "key": "oDPJCnTSUJc",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-06-09 16:00:37 UTC",
+            "id": "60efb782d7f465004551b00e",
+            "url": "https://www.youtube.com/embed/oDPJCnTSUJc?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Mini-Pufts Character Reveal",
+            "key": "43CTgfwoa3Y",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-04-07 13:15:01 UTC",
+            "id": "606dc2480d2f530040a63e25",
+            "url": "https://www.youtube.com/embed/43CTgfwoa3Y?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer",
+            "key": "ahZFCF--uRY",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2019-12-09 14:00:00 UTC",
+            "id": "5dee836bdc86470013c571b6",
+            "url": "https://www.youtube.com/embed/ahZFCF--uRY?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "First Teaser",
+            "key": "BGq1chBbc30",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2019-01-17 11:13:38 UTC",
+            "id": "5ded8d6fdc86470013c3e016",
+            "url": "https://www.youtube.com/embed/BGq1chBbc30?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Ghostbusters: Afterlife",
+        "Year": "2021",
+        "Rated": "PG-13",
+        "Released": "19 Nov 2021",
+        "Runtime": "124 min",
+        "Genre": "Comedy, Fantasy",
+        "Director": "Jason Reitman",
+        "Writer": "Gil Kenan, Jason Reitman, Dan Aykroyd",
+        "Actors": "Finn Wolfhard, Mckenna Grace, Carrie Coon",
+        "Plot": "When a single mom and her two kids arrive in a small town, they begin to discover their connection to the original Ghostbusters and the secret legacy their grandfather left behind.",
+        "Language": "English",
+        "Country": "Canada, United States",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMmZiMjdlN2UtYzdiZS00YjgxLTgyZGMtYzE4ZGU5NTlkNjhhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.8/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "59/100"
+          }
+        ],
+        "Metascore": "59",
+        "imdbRating": "7.8",
+        "imdbVotes": "729",
+        "imdbID": "tt4513678",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Kvikmyndin fjallar um einstæða móður og tvö börn hennar, sem flytja í lítinn bæ og uppgötva tengsl við upprunalegu draugabanana, og kynnast dularfullu lífshlaupi afa síns."
+  },
+  {
+    "_id": "61a794d3304012cd797601ab",
+    "id": 13478,
+    "ids": {
+      "imdb": "12537368",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Encanto",
+    "alternativeTitles": "",
+    "year": "2021",
+    "certificateIS": "Öllum leyfð",
+    "durationMinutes": 99,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      },
+      {
+        "ID": 34,
+        "Name": "Fjölskyldumynd",
+        "NameEN\t": "Family"
+      },
+      {
+        "ID": 35,
+        "Name": "Söngleikur",
+        "NameEN\t": "Musical"
+      },
+      {
+        "ID": 70,
+        "Name": "Teiknimynd",
+        "NameEN\t": "Animation"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/encanto_payoff_courtyard_1s_v8.0_mech6_fs-scaled-1637620018.jpg",
+    "actors_abridged": [
+      {
+        "name": "Stephanie Beatriz"
+      },
+      {
+        "name": "María Cecilia Botero"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Byron Howard"
+      },
+      {
+        "name": "Jared Bush"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.7",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "15.10 (ÍSL TAL ÍSL TAL 4)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78637&visLang=1"
+          },
+          {
+            "time": "17.40 (ÍSL TAL ÍSL TAL 2)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78646&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "18.00 (ÍSL TAL ÍSL TAL 2)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=0000000003&txtSessionId=33512&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 4,
+          "name": "Laugarásbíó"
+        },
+        "schedule": [
+          {
+            "time": "17:45 (A)",
+            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/624219/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "17:00 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/326399/"
+          },
+          {
+            "time": "17:40 (B)",
+            "purchase_url": "http://www.sambio.is/websales/show/326455/"
+          },
+          {
+            "time": "18:00 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/326395/"
+          },
+          {
+            "time": "20:00 (B)",
+            "purchase_url": "http://www.sambio.is/websales/show/326456/"
+          },
+          {
+            "time": "22:20 (B)",
+            "purchase_url": "http://www.sambio.is/websales/show/326470/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
+        "schedule": [
+          {
+            "time": "16:00 (1)",
+            "purchase_url": "http://www.sambio.is/websales/show/326402/"
+          },
+          {
+            "time": "18:40 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/326423/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "17:40 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/326939/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 9,
+          "name": "Sambíóin, Akureyri"
+        },
+        "schedule": [
+          {
+            "time": "17:20 (A)",
+            "purchase_url": "http://www.sambio.is/websales/show/326433/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "Öllum leyfð",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [],
+    "omdb": [
+      {
+        "Title": "Encanto",
+        "Year": "2021",
+        "Rated": "PG",
+        "Released": "24 Nov 2021",
+        "Runtime": "99 min",
+        "Genre": "Animation, Adventure, Comedy",
+        "Director": "Jared Bush, Byron Howard, Charise Castro Smith",
+        "Writer": "Charise Castro Smith, Jared Bush, Byron Howard",
+        "Actors": "Stephanie Beatriz, María Cecilia Botero, John Leguizamo",
+        "Plot": "A young Colombian girl has to face the frustration of being the only member of her family without magical powers.",
+        "Language": "English, Spanish",
+        "Country": "United States",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNjE5NzA4ZDctOTJkZi00NzM0LTkwOTYtMDI4MmNkMzIxODhkXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.8/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.8",
+        "imdbVotes": "1,509",
+        "imdbID": "tt2953050",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "$7,500,000",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Hér segir frá Madrigal fjölskyldunni, óvenjulegri fjölskyldu sem býr á töfrandi stað sem kallast Encanto í Kólumbíu. Hvert einasta barn sem fæðist fær að gjöf ofurkrafta - öll börn nema eitt, Mirabel. En þegar heimili fjölskyldunnar er í hættu, þá gæti Mirabel verið þeirra eina von."
+  },
+  {
+    "_id": "61a794d3304012cd797601b4",
+    "id": 13489,
+    "ids": {
+      "imdb": "9620288",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "King Richard",
+    "alternativeTitles": "",
+    "year": "2021",
+    "certificateIS": "12 ára",
+    "durationMinutes": 138,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 42,
+        "Name": "Æviágrip",
+        "NameEN\t": "Biography"
+      },
+      {
+        "ID": 80,
+        "Name": "Íþróttamynd",
+        "NameEN\t": "Sport"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/13489_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Will Smith"
+      },
+      {
+        "name": "Aunjanue Ellis"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Reinaldo Marcus Green"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.6",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "20.30 (4)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=0000000003&txtSessionId=33510&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "19:00 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/326297/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
+        "schedule": [
+          {
+            "time": "20:50 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/326318/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "19:30 (4)",
+            "purchase_url": "http://www.sambio.is/websales/show/326931/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 614917,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official \"Be Alive\" Trailer",
+            "key": "_6bsugyNpDU",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2021-10-21 18:32:06 UTC",
+            "id": "618a709369d28000449c0c4d",
+            "url": "https://www.youtube.com/embed/_6bsugyNpDU?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer",
+            "key": "BKP_0z52ZAw",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-07-28 16:30:02 UTC",
+            "id": "610188f0cee481005e3755dd",
+            "url": "https://www.youtube.com/embed/BKP_0z52ZAw?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "King Richard",
+        "Year": "2021",
+        "Rated": "PG-13",
+        "Released": "19 Nov 2021",
+        "Runtime": "144 min",
+        "Genre": "Biography, Drama, Sport",
+        "Director": "Reinaldo Marcus Green",
+        "Writer": "Zach Baylin",
+        "Actors": "Will Smith, Aunjanue Ellis, Jon Bernthal",
+        "Plot": "A look at how tennis superstars Venus and Serena Williams became who they are after the coaching from their father Richard Williams.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "5 wins & 2 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYTcyNmY4ZGEtYmE4Zi00ZDViLTlmYzMtMmQ4ZTM4OWNmZjQxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.3/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "71/100"
+          }
+        ],
+        "Metascore": "71",
+        "imdbRating": "6.3",
+        "imdbVotes": "11,830",
+        "imdbID": "tt9620288",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "$6,652,531",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Mynd sem fjallar um tennis ofurstjörnurnar Venus og Serena Williams og hvaða áhrif faðir þeirra og þjálfari Richard Williams hafði á þær."
+  },
+  {
+    "_id": "61a794d3304012cd79760200",
+    "id": 13817,
+    "ids": {
+      "imdb": "9308390",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Margrete den første",
+    "alternativeTitles": "Margrete - Queen of the North",
+    "year": "2021",
+    "certificateIS": "12 ára",
+    "durationMinutes": 120,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 40,
+        "Name": "Söguleg",
+        "NameEN\t": "History"
+      },
+      {
+        "ID": 42,
+        "Name": "Æviágrip",
+        "NameEN\t": "Biography"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/1556574_500-1636447797.jpg",
+    "actors_abridged": [
+      {
+        "name": "Trine Dyrholm"
+      },
+      {
+        "name": "Søren Malling"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Charlotte Sieling"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.2",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "17.40 (3)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/12480/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 659370,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Margrete Den Første - Teaser Trailer (DK)",
+            "key": "pwXO35Z5Vbs",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-01-19 12:45:01 UTC",
+            "id": "6019dcb91b70ae003c691e44",
+            "url": "https://www.youtube.com/embed/pwXO35Z5Vbs?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Margrete - Queen of the North",
+        "Year": "2021",
+        "Rated": "N/A",
+        "Released": "16 Sep 2021",
+        "Runtime": "120 min",
+        "Genre": "Biography, Drama, History",
+        "Director": "Charlotte Sieling",
+        "Writer": "Jesper Fink, Maya Ilsøe, Charlotte Sieling",
+        "Actors": "Trine Dyrholm, Søren Malling, Morten Hee Andersen",
+        "Plot": "1402. Queen Margrete is ruling Sweden, Norway and Denmark through her adopted son, Erik. But a conspiracy is in the making and Margrete finds herself in an impossible dilemma that could shatter her life's work: the Kalmar Union.",
+        "Language": "Danish, Swedish, Norwegian, English, German, French",
+        "Country": "Denmark, Sweden, Norway, Iceland, Czech Republic, Poland",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNWU5NTEwOGEtZTMzYS00ODFlLWE5MjAtYTZjOGU3NjA1YWMxXkEyXkFqcGdeQXVyMjMyOTAzNjM@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.2/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.2",
+        "imdbVotes": "408",
+        "imdbID": "tt9308390",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Árið er 1402. Margrét drottning ríkir í friði yfir Svíþjóð, Noregi og Danmörku í gegnum ættleiddan son sinn Erik. En samsæri kraumar undir og Margrét lendir í úlfakreppu sem gæti breytt öllu: Kalmar ríkjasambandinu."
+  },
+  {
+    "_id": "61a794d3304012cd79760201",
+    "id": 12758,
+    "ids": {
+      "imdb": "8847712",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "The French Dispatch",
+    "alternativeTitles": "",
+    "year": "2020",
+    "certificateIS": "9 ára",
+    "durationMinutes": 108,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 3,
+        "Name": "Rómantísk",
+        "NameEN\t": "Romance"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/disb-1633704626.jpg",
+    "actors_abridged": [
+      {
+        "name": "Bill Murray"
+      },
+      {
+        "name": "Frances McDormand"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Wes Anderson"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.5",
+      "rotten_audience": null,
+      "rotten_critics": "0"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 2,
+          "name": "Háskólabíó"
+        },
+        "schedule": [
+          {
+            "time": "18.10 (4)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=0000000003&txtSessionId=33514&visLang=1"
+          },
+          {
+            "time": "20.20 (2)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=0000000003&txtSessionId=33511&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "17.40 (1)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/12393/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "9 ára",
+      "color": "orange",
+      "number": "9"
+    },
+    "trailers": [
+      {
+        "id": 542178,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Arts and Artists",
+            "key": "qrpbzEwPNyE",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-09-23 16:22:47 UTC",
+            "id": "6157fcc767dcc90062e53308",
+            "url": "https://www.youtube.com/embed/qrpbzEwPNyE?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Local Color",
+            "key": "ywZFrW2iSoo",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-09-23 16:13:07 UTC",
+            "id": "6157fc3dec1879008c7269df",
+            "url": "https://www.youtube.com/embed/ywZFrW2iSoo?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "\"Aline\" Music Video",
+            "key": "aJGMmXdyhoA",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-09-22 15:00:05 UTC",
+            "id": "6157ffe1dd731b0042ad3885",
+            "url": "https://www.youtube.com/embed/aJGMmXdyhoA?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "\"Table Setter\" Featurette",
+            "key": "gsH6kR7Iovs",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Behind the Scenes",
+            "official": true,
+            "published_at": "2021-09-02 21:00:43 UTC",
+            "id": "6137941c07a808004337aee5",
+            "url": "https://www.youtube.com/embed/gsH6kR7Iovs?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "“The Rules of Writing” by Arthur HOWITZER Jr.",
+            "key": "ejCGvaRA6JY",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-09-02 18:16:18 UTC",
+            "id": "61417e19fd7aa4009092e151",
+            "url": "https://www.youtube.com/embed/ejCGvaRA6JY?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "“Revisions to a Manifesto” by Lucinda KREMENTZ",
+            "key": "_200CA5GrwY",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-08-31 17:00:04 UTC",
+            "id": "61305032f621b2004325f309",
+            "url": "https://www.youtube.com/embed/_200CA5GrwY?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "The Private Dining Room of the Police Commissioner by Roebuck WRIGHT",
+            "key": "mr1GnDnv7WQ",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-08-27 03:05:46 UTC",
+            "id": "6130506acffeed0063b704aa",
+            "url": "https://www.youtube.com/embed/mr1GnDnv7WQ?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "The Concrete Masterpiece by J.K.L. BERENSEN",
+            "key": "sqAKv2W-HhE",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-08-25 17:23:26 UTC",
+            "id": "61304ffa7f6c8d0061a50e5f",
+            "url": "https://www.youtube.com/embed/sqAKv2W-HhE?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "The Cycling Reporter by Herbsaint SAZERAC",
+            "key": "ZLCsJR63Ng8",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-08-20 17:00:06 UTC",
+            "id": "61304f812cefc20043a5fafd",
+            "url": "https://www.youtube.com/embed/ZLCsJR63Ng8?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Let's Start With The Typos Clip",
+            "key": "dvubfl-qeC8",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-07-13 12:00:30 UTC",
+            "id": "60ed80f1ab1bc7007412d853",
+            "url": "https://www.youtube.com/embed/dvubfl-qeC8?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer",
+            "key": "TcPk2p0Zaw4",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2020-02-12 13:59:55 UTC",
+            "id": "5e44053d9603310015f36ce1",
+            "url": "https://www.youtube.com/embed/TcPk2p0Zaw4?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The French Dispatch",
+        "Year": "2021",
+        "Rated": "R",
+        "Released": "22 Oct 2021",
+        "Runtime": "108 min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "Wes Anderson",
+        "Writer": "Wes Anderson, Roman Coppola, Hugo Guinness",
+        "Actors": "Benicio Del Toro, Adrien Brody, Tilda Swinton",
+        "Plot": "A love letter to journalists set in an outpost of an American newspaper in a fictional twentieth century French city that brings to life a collection of stories published in \"The French Dispatch Magazine\".",
+        "Language": "English, French",
+        "Country": "United States, Germany",
+        "Awards": "5 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNmQxZTNiODYtNzBhYy00MzVlLWJlN2UtNTc4YWZjMDIwMmEzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.5/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "74/100"
+          }
+        ],
+        "Metascore": "74",
+        "imdbRating": "7.5",
+        "imdbVotes": "19,995",
+        "imdbID": "tt8847712",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "$9,353,387",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Arthur Howitzer Jr., ritstjóri dagblaðsins The French Dispatch, fær skyndilega hjartaáfall og deyr. Samkvæmt erfðaskrá hans skal umsvifalaust hætta útgáfu dagblaðsins, eftir að búið er að gefa út eitt loka tölublað. Í því eru endurbirtar þrjár greinar úr eldri tölublöðum blaðsins ásamt minningargrein um Howitzer. \nMyndin segir þessar þrjár sögur og er kynnt sem ástarbréf til blaðamanna."
+  },
+  {
+    "_id": "61a794d3304012cd7976020b",
+    "id": 13627,
+    "ids": {
+      "imdb": "14534854",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Birta",
+    "alternativeTitles": "",
+    "year": "2021",
+    "certificateIS": "Öllum leyfð",
+    "durationMinutes": 85,
+    "genres": [
+      {
+        "ID": 34,
+        "Name": "Fjölskyldumynd",
+        "NameEN\t": "Family"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/birta_screen_clean_srgb-1634126930.jpg",
+    "actors_abridged": [
+      {
+        "name": "Salka Sól Eyfeld"
+      },
+      {
+        "name": "Bjarni Snæbjörnsson"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Bragi Þór Hinriksson"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.8",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "15.30 (5)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78641&visLang=1"
+          },
+          {
+            "time": "17.30 (5)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78645&visLang=1"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "Öllum leyfð",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [],
+    "omdb": [
+      {
+        "Title": "Birta",
+        "Year": "2021",
+        "Rated": "N/A",
+        "Released": "05 Nov 2021",
+        "Runtime": "85 min",
+        "Genre": "Family",
+        "Director": "Bragi Thor Hinriksson",
+        "Writer": "Helga Arnardóttir",
+        "Actors": "Harald G. Haraldsson, Kristín Erla Pétursdóttir, Margrét Júlía Reynisdóttir",
+        "Plot": "N/A",
+        "Language": "Icelandic, Vietnamese",
+        "Country": "Iceland",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWQyNzk5NDYtNjZhMy00MGQ4LWE5MTctNWQ3N2EyYmFmMTY3XkEyXkFqcGdeQXVyMzM5MzQ0NDA@._V1_SX300.jpg",
+        "Ratings": [],
+        "Metascore": "N/A",
+        "imdbRating": "N/A",
+        "imdbVotes": "N/A",
+        "imdbID": "tt14534854",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Sagan gerist í neðra Breiðholti og fjallar um Birtu Bjarkadóttur 11 ára. Hún heyrir fyrir slysni einstæða móður sína, sem vinnur myrkrana á milli sem hjúkrunarfræðingur til að ná endum saman, segja við vinkonu í símann að hún hafi ekki efni á að halda jól. Hún þurfi að minnsta kosti hundrað þúsund krónur til að geta haldið mannsæmandi jólahátíð fyrir stelpurnar sínar.  Birta tekur þessum fréttum bókstaflega og ákveður að reyna bjarga jólunum fyrir mömmu og litlu systur sína Kötu sem er sex ára.  Birta reynir margar leiðir til að hjálpa mömmu sinni án hennar vitneskju að afla fjár en kemst fljótt að því að það er alls ekkert einfalt mál að vinna sér inn pening, hvað þá þegar maður er ellefu ára."
+  },
+  {
+    "_id": "61a794d4304012cd7976027c",
+    "id": 13191,
+    "ids": {
+      "imdb": "7504818",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Ron's Gone Wrong",
+    "alternativeTitles": "Ron er í rugli",
+    "year": "2021",
+    "certificateIS": "Öllum leyfð",
+    "durationMinutes": 106,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      },
+      {
+        "ID": 34,
+        "Name": "Fjölskyldumynd",
+        "NameEN\t": "Family"
+      },
+      {
+        "ID": 70,
+        "Name": "Teiknimynd",
+        "NameEN\t": "Animation"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/13191_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Zach Galifianakis"
+      },
+      {
+        "name": "Jack Dylan Grazer"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Jean-Philippe Vine"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.2",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "16:50 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/326109/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "17:40 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/326900/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "Öllum leyfð",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [
+      {
+        "id": 482321,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer",
+            "key": "8I8nMtzN05s",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-09-09 15:00:11 UTC",
+            "id": "613a37348f26bc001acc0507",
+            "url": "https://www.youtube.com/embed/8I8nMtzN05s?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer",
+            "key": "fCqGfjBSk0I",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-06-08 12:49:26 UTC",
+            "id": "60bf67aad7fbda006f955a2d",
+            "url": "https://www.youtube.com/embed/fCqGfjBSk0I?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Ron's Gone Wrong",
+        "Year": "2021",
+        "Rated": "PG",
+        "Released": "22 Oct 2021",
+        "Runtime": "107 min",
+        "Genre": "Animation, Adventure, Comedy",
+        "Director": "Sarah Smith, Jean-Philippe Vine, Octavio E. Rodriguez",
+        "Writer": "Peter Baynham, Sarah Smith",
+        "Actors": "Jack Dylan Grazer, Zach Galifianakis, Ed Helms",
+        "Plot": "The story of Barney, an awkward middle-schooler and Ron, his new walking, talking, digitally-connected device. Ron's malfunctions set against the backdrop of the social media age launch them on a journey to learn about true friendshi",
+        "Language": "English",
+        "Country": "United States, United Kingdom, Canada",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMzMxMjllYTgtZWNjZS00ODc0LTljZWUtYjdiMDQ2ZDJkM2FkXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.2/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "65/100"
+          }
+        ],
+        "Metascore": "65",
+        "imdbRating": "7.2",
+        "imdbVotes": "3,387",
+        "imdbID": "tt7504818",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "$20,774,714",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Myndin gerist í heimi þar sem gangandi, talandi og sítengd vélmenni eru orðin bestu vinir barna. Aðalpersónan er Barney, 11 ára strákur sem kemst að því að vélmennavinur hans Ron er hættur að virka, og hann tekur til sinna ráða."
+  },
+  {
+    "_id": "61a794d4304012cd79760280",
+    "id": 13479,
+    "ids": {
+      "imdb": "4244994",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "The Last Duel",
+    "alternativeTitles": "",
+    "year": "2021",
+    "certificateIS": "16 ára",
+    "durationMinutes": 152,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 40,
+        "Name": "Söguleg",
+        "NameEN\t": "History"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/sumarlj-1633794464.jpg",
+    "actors_abridged": [
+      {
+        "name": "Matt Damon"
+      },
+      {
+        "name": "Adam Driver"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Ridley Scott"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.7",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "21.20 (3)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/12451/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "16 ára",
+      "color": "red",
+      "number": "16"
+    },
+    "trailers": [
+      {
+        "id": 617653,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Lies",
+            "key": "rPapNDpFoeY",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-08 15:00:38 UTC",
+            "id": "61666ab0d7f465004247a4f7",
+            "url": "https://www.youtube.com/embed/rPapNDpFoeY?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "No Turning Back",
+            "key": "GXJUN94tEzI",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-07 23:28:14 UTC",
+            "id": "61666abd35811d0029ad9ba8",
+            "url": "https://www.youtube.com/embed/GXJUN94tEzI?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Event",
+            "key": "fXqkWb6yul0",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-07 16:35:54 UTC",
+            "id": "61666acc15794a00613842b0",
+            "url": "https://www.youtube.com/embed/fXqkWb6yul0?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Extended Clip",
+            "key": "OgUp8IPS7YA",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-05 16:00:12 UTC",
+            "id": "61666a5a3a9650008fb3f63d",
+            "url": "https://www.youtube.com/embed/OgUp8IPS7YA?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Greatness",
+            "key": "2GX9Jdixf3I",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-01 15:00:01 UTC",
+            "id": "61666ae6158c850042ce8ff1",
+            "url": "https://www.youtube.com/embed/2GX9Jdixf3I?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Clip",
+            "key": "AKlldwU678I",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-09-30 17:00:28 UTC",
+            "id": "61666b0815794a0061384348",
+            "url": "https://www.youtube.com/embed/AKlldwU678I?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Testament",
+            "key": "CHW6H4ZU5fQ",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-09-30 16:13:52 UTC",
+            "id": "61666b166728a80063e19bfd",
+            "url": "https://www.youtube.com/embed/CHW6H4ZU5fQ?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Epic",
+            "key": "EzvHfw8YjM8",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-09-29 18:36:25 UTC",
+            "id": "61666b280d417e009126d517",
+            "url": "https://www.youtube.com/embed/EzvHfw8YjM8?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Confess",
+            "key": "5w8YzSOVLvM",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-09-28 15:00:09 UTC",
+            "id": "61666b3a33ec2600654c4ba7",
+            "url": "https://www.youtube.com/embed/5w8YzSOVLvM?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Behind the Scenes Featurette",
+            "key": "YeeRN-Xj2x8",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Behind the Scenes",
+            "official": true,
+            "published_at": "2021-09-23 19:00:08 UTC",
+            "id": "61666b4bd43f010065f322ee",
+            "url": "https://www.youtube.com/embed/YeeRN-Xj2x8?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Against the World",
+            "key": "mYDRguoAlho",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-09-20 15:00:18 UTC",
+            "id": "61666b5884591c0023e42e18",
+            "url": "https://www.youtube.com/embed/mYDRguoAlho?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Truth Will Prevail",
+            "key": "JKVwtY2-PUE",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-09-19 15:00:07 UTC",
+            "id": "61666b6c8c40f70091e6794c",
+            "url": "https://www.youtube.com/embed/JKVwtY2-PUE?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "The Last Duel",
+            "key": "QTBSb0i09kI",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-09-09 14:00:12 UTC",
+            "id": "613a21f0c68b69002bc32189",
+            "url": "https://www.youtube.com/embed/QTBSb0i09kI?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer",
+            "key": "mgygUwPJvYk",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-07-20 15:00:22 UTC",
+            "id": "60f6ecc1c7a7e0002d66bd9f",
+            "url": "https://www.youtube.com/embed/mgygUwPJvYk?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Last Duel",
+        "Year": "2021",
+        "Rated": "R",
+        "Released": "15 Oct 2021",
+        "Runtime": "152 min",
+        "Genre": "Action, Drama, History",
+        "Director": "Ridley Scott",
+        "Writer": "Nicole Holofcener, Ben Affleck, Matt Damon",
+        "Actors": "Matt Damon, Adam Driver, Jodie Comer",
+        "Plot": "King Charles VI declares that Knight Jean de Carrouges settle his dispute with his squire by challenging him to a duel.",
+        "Language": "English, German",
+        "Country": "United States, United Kingdom",
+        "Awards": "2 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZGExZTUzYWQtYWJjZi00OTI4LTk4OGYtNTA2YzcwMmNiZTMxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.7/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "67/100"
+          }
+        ],
+        "Metascore": "67",
+        "imdbRating": "7.7",
+        "imdbVotes": "23,192",
+        "imdbID": "tt4244994",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "$10,769,035",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Jean de Carrouges er virtur riddari, þekktur fyrir hugrekki og hæfni á vígvellinum. Jacques Le Gris er skjaldsveinn, en gáfur hans og mælska hafa gert hann að einum virtasta aðalsmanni hirðarinnar. Þegar Le Gris nauðgar eiginkonu Carrouge, þá stígur hún fram með ásakanir á hendur árásarmanni sínum, sem sýnir mikið hugrekki af hennar hálfu, en setur líf hennar í hættu á sama tíma. Í hönd fer grimmilegt uppgjör, einvígi þar sem barist er til dauða, og örlög allra þriggja ráðast nú af almættinu."
+  },
+  {
+    "_id": "61a794d4304012cd79760282",
+    "id": 13802,
+    "ids": {
+      "imdb": "15521650",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Hvunndagshetjur",
+    "alternativeTitles": "Are You Icelandic?",
+    "year": "2021",
+    "certificateIS": "Öllum leyfð",
+    "durationMinutes": 63,
+    "genres": [
+      {
+        "ID": 39,
+        "Name": "Heimildarmynd",
+        "NameEN\t": "Documentary"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/243036561_10158346664958479_3852164507460795464_n-1635412847.jpg",
+    "actors_abridged": [
+      {
+        "name": "Maria Victoria Ann Campbell"
+      },
+      {
+        "name": "Zineta Pidzo Cogic"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Magnea Björk Valdimarsdóttir"
+      }
+    ],
+    "ratings": {
+      "imdb": null,
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "19.50 (3)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/12324/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "Öllum leyfð",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [
+      {
+        "id": 881141,
+        "results": []
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Hvunndagshetjur",
+        "Year": "2021",
+        "Rated": "N/A",
+        "Released": "04 Oct 2021",
+        "Runtime": "63 min",
+        "Genre": "Documentary",
+        "Director": "Magnea Björk Valdimarsdóttir",
+        "Writer": "Magnea Björk Valdimarsdóttir, María Lea Ævarsdóttir",
+        "Actors": "Maria Victoria Ann Campbell, Zineta Pidzo Cogic, Karolina Von Mrozik Gliszczynska",
+        "Plot": "Four different women have lived in Iceland for twenty years. Born in Bosnia, Poland, Jamaica and Turkey, the women tell the stories that lead them here.",
+        "Language": "Turkish, Polish, Bosnian, English, Icelandic",
+        "Country": "Iceland",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYWIzMzhjZjEtOWNhMC00OGFjLWI1NjMtMTJjMWJhY2VhMjEyXkEyXkFqcGdeQXVyNDgyMDIzNTQ@._V1_SX300.jpg",
+        "Ratings": [],
+        "Metascore": "N/A",
+        "imdbRating": "N/A",
+        "imdbVotes": "N/A",
+        "imdbID": "tt15521650",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Zineta, Ebru, Karolina og Maria Victoria búa á Íslandi. Þær eru fæddar í fjórum mjög ólíkum löndum en mismunandi ástæður eru að baki komu þeirra hingað til lands. Með traustu sambandi leikstjóra við konurnar, opna þær hjarta sitt um það hvernig er að vera erlend kona á Íslandi. Allar hafa sína sögu að segja en þær eiga það sameiginlegt að hafa orðið fyrir misrétti og fordómum hver á sinn hátt."
+  },
+  {
+    "_id": "61a794d4304012cd797602a6",
+    "id": 12736,
+    "ids": {
+      "imdb": "9032400",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "Eternals",
+    "alternativeTitles": "",
+    "year": "2021",
+    "certificateIS": "12 ára",
+    "durationMinutes": 157,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 31,
+        "Name": "Vísindaskáldskapur",
+        "NameEN\t": "Sci-Fi"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/eternal-1635071283.jpg",
+    "actors_abridged": [
+      {
+        "name": "Gemma Chan"
+      },
+      {
+        "name": "Richard Madden"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Chloé Zhao"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.8",
+      "rotten_audience": null,
+      "rotten_critics": "0"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "19.30 (5)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78649&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "22:00 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/326170/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "20:00 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/326906/"
+          },
+          {
+            "time": "22:10 (4)",
+            "purchase_url": "http://www.sambio.is/websales/show/326911/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 524434,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Movies",
+            "key": "ue1xsZR40fo",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-11-14 17:00:25 UTC",
+            "id": "6191649f15376c00610a5170",
+            "url": "https://www.youtube.com/embed/ue1xsZR40fo?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Roll Call",
+            "key": "_YKiiPEoWBY",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-11-13 20:00:16 UTC",
+            "id": "619045f7d55e4d00647f9ecc",
+            "url": "https://www.youtube.com/embed/_YKiiPEoWBY?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Action",
+            "key": "QzBh_O3AIko",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-11-08 19:59:21 UTC",
+            "id": "618983e8cb6db5008d5ca11d",
+            "url": "https://www.youtube.com/embed/QzBh_O3AIko?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "#1 Movie In The World",
+            "key": "sXoSILzgFug",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-11-07 17:00:07 UTC",
+            "id": "6188349470309f002a10c09d",
+            "url": "https://www.youtube.com/embed/sXoSILzgFug?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "The Marvel Cinematic Event",
+            "key": "0e8v6uHM8MM",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-11-06 19:00:00 UTC",
+            "id": "6186d9efe93e950042dce215",
+            "url": "https://www.youtube.com/embed/0e8v6uHM8MM?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Meet The Eternals",
+            "key": "IitHGM6LDSQ",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-11-04 19:24:31 UTC",
+            "id": "61861d8ea313b8008f44d179",
+            "url": "https://www.youtube.com/embed/IitHGM6LDSQ?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Celestials | Marvel 101",
+            "key": "AyN-xIL3TIA",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-11-04 16:08:55 UTC",
+            "id": "61861cf53faba0008f651a70",
+            "url": "https://www.youtube.com/embed/AyN-xIL3TIA?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Fresh",
+            "key": "dWyusOS1Rqw",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-11-04 15:00:21 UTC",
+            "id": "61840d5ae93e95008e8de1e4",
+            "url": "https://www.youtube.com/embed/dWyusOS1Rqw?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Deviants | Marvel 101",
+            "key": "juXNIvzhLdY",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-11-03 16:00:21 UTC",
+            "id": "61861cd7d388ae008a12cf9a",
+            "url": "https://www.youtube.com/embed/juXNIvzhLdY?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Beginnings",
+            "key": "RnLI7Ku_8_k",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-11-03 15:18:13 UTC",
+            "id": "61837b50d388ae0043f92aaa",
+            "url": "https://www.youtube.com/embed/RnLI7Ku_8_k?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Bells",
+            "key": "lIQ7PzDqAOE",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-11-02 20:01:11 UTC",
+            "id": "6181d35c8ed03f00636a3dff",
+            "url": "https://www.youtube.com/embed/lIQ7PzDqAOE?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "“Bollywood” Official Clip",
+            "key": "lXed5Inp844",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-11-02 14:00:14 UTC",
+            "id": "6181457013a3880096cda73b",
+            "url": "https://www.youtube.com/embed/lXed5Inp844?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Vibe",
+            "key": "n0xiX1cKlD8",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-11-01 14:00:34 UTC",
+            "id": "617ff3d9f6596f0088a2ab74",
+            "url": "https://www.youtube.com/embed/n0xiX1cKlD8?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Rumble",
+            "key": "i0_Q80DngtU",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-31 16:00:34 UTC",
+            "id": "617ecda7a097dc0042843aca",
+            "url": "https://www.youtube.com/embed/i0_Q80DngtU?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Emoji Challenge",
+            "key": "LNymnPoW4VM",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-30 18:00:07 UTC",
+            "id": "61800fdd3faba0002c3bfcec",
+            "url": "https://www.youtube.com/embed/LNymnPoW4VM?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Get to Know the Eternals",
+            "key": "Aqu6avbObwI",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-30 17:30:01 UTC",
+            "id": "61800fbc3e2ec8006366590e",
+            "url": "https://www.youtube.com/embed/Aqu6avbObwI?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Makkari | Marvel 101",
+            "key": "nJ-b8wvMdKE",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-30 16:00:33 UTC",
+            "id": "61800f9b3876510044a773f2",
+            "url": "https://www.youtube.com/embed/nJ-b8wvMdKE?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Forever",
+            "key": "Xi65rX01bLo",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-29 16:38:52 UTC",
+            "id": "617c28e3176a94008d31cc74",
+            "url": "https://www.youtube.com/embed/Xi65rX01bLo?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Gilgamesh | Marvel 101",
+            "key": "TGP7F9dSBpU",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-29 14:30:05 UTC",
+            "id": "61800f4c5294e71f06170b98",
+            "url": "https://www.youtube.com/embed/TGP7F9dSBpU?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "The Eternal City",
+            "key": "CjpArUyhwTc",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-28 18:20:01 UTC",
+            "id": "61800f34229ae200901518d6",
+            "url": "https://www.youtube.com/embed/CjpArUyhwTc?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Sprite | Marvel 101",
+            "key": "QVXfpzdf6JQ",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-28 17:30:02 UTC",
+            "id": "61800f1911386c0063feda5a",
+            "url": "https://www.youtube.com/embed/QVXfpzdf6JQ?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Druig | Marvel 101",
+            "key": "YbNUZEptBoQ",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-27 14:00:29 UTC",
+            "id": "61800efe8ed03f002d01b8fc",
+            "url": "https://www.youtube.com/embed/YbNUZEptBoQ?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Eternals in 60 Seconds",
+            "key": "a1uXjbXwbKI",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-10-27 01:04:11 UTC",
+            "id": "6178dd2fc2b9df0042a8aae7",
+            "url": "https://www.youtube.com/embed/a1uXjbXwbKI?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Ajak | Marvel 101",
+            "key": "X-3GgYSOmjE",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-26 17:30:04 UTC",
+            "id": "61800ec3e93e95008e874a1f",
+            "url": "https://www.youtube.com/embed/X-3GgYSOmjE?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Fun",
+            "key": "crSUM5afyc8",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-26 14:00:14 UTC",
+            "id": "61781295d236e6002a7fb1a2",
+            "url": "https://www.youtube.com/embed/crSUM5afyc8?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Ikaris | Marvel 101",
+            "key": "wnFBCezjyfw",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-25 16:00:30 UTC",
+            "id": "61800e8ac7c2240029f39e3c",
+            "url": "https://www.youtube.com/embed/wnFBCezjyfw?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "In Kingo’s Words",
+            "key": "n8OBGfqKymk",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Behind the Scenes",
+            "official": true,
+            "published_at": "2021-10-25 15:05:34 UTC",
+            "id": "6176cd540d5d85002af0f530",
+            "url": "https://www.youtube.com/embed/n8OBGfqKymk?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Choose For Eternity",
+            "key": "4Gi7qTlb5r8",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-24 16:30:01 UTC",
+            "id": "61800e73e93e95002b366efb",
+            "url": "https://www.youtube.com/embed/4Gi7qTlb5r8?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Sersi | Marvel 101",
+            "key": "eNcAQDxWzLc",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-24 15:30:09 UTC",
+            "id": "61800e41c7c22400938f24ec",
+            "url": "https://www.youtube.com/embed/eNcAQDxWzLc?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "The Eternals | Marvel 101",
+            "key": "zir8J4mdgmo",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-23 17:00:35 UTC",
+            "id": "61800e245294e70044079630",
+            "url": "https://www.youtube.com/embed/zir8J4mdgmo?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Evolve",
+            "key": "f3E8rrAGOLI",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-23 16:00:15 UTC",
+            "id": "617499429ee0ef006122f79d",
+            "url": "https://www.youtube.com/embed/f3E8rrAGOLI?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Cape",
+            "key": "rACAp_iQwP8",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-22 17:00:35 UTC",
+            "id": "61730733b3316b0091323c3d",
+            "url": "https://www.youtube.com/embed/rACAp_iQwP8?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "\"Visionary\" Featurette",
+            "key": "GObA6Uio6Bw",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-10-21 19:40:43 UTC",
+            "id": "61720d41bf09d1006442966b",
+            "url": "https://www.youtube.com/embed/GObA6Uio6Bw?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "\"Introducing The Eternals\" Featurette",
+            "key": "1sNEx1xXSIY",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-10-20 16:00:01 UTC",
+            "id": "61703ec9fd7aa400660c7d1d",
+            "url": "https://www.youtube.com/embed/1sNEx1xXSIY?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Honor",
+            "key": "kQ3T3rair-s",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-18 16:00:33 UTC",
+            "id": "616da712bf31f200614888e2",
+            "url": "https://www.youtube.com/embed/kQ3T3rair-s?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "“Run!” Official Clip",
+            "key": "n3qsQgMhndc",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-15 16:00:25 UTC",
+            "id": "6169a7283a99370062add625",
+            "url": "https://www.youtube.com/embed/n3qsQgMhndc?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "\"In The Beginning\" Featurette",
+            "key": "PcPIlVJ35R0",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-10-11 16:00:12 UTC",
+            "id": "6164669fcee4810043b74060",
+            "url": "https://www.youtube.com/embed/PcPIlVJ35R0?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Return",
+            "key": "XLFsHdE4U_E",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-11 14:00:13 UTC",
+            "id": "616451d896033100447e2a94",
+            "url": "https://www.youtube.com/embed/XLFsHdE4U_E?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Change",
+            "key": "Zd_C71THulw",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-10 16:00:15 UTC",
+            "id": "61638d9ab865eb002539056f",
+            "url": "https://www.youtube.com/embed/Zd_C71THulw?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Team",
+            "key": "F9dFBc43tGU",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-05 18:00:06 UTC",
+            "id": "615cb5fe0bc5290087857c20",
+            "url": "https://www.youtube.com/embed/F9dFBc43tGU?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "PARKING SPOT Featurette",
+            "key": "7i4EeyCpc50",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": false,
+            "published_at": "2021-10-04 04:03:28 UTC",
+            "id": "61612c4e7d41aa0061a1b7c4",
+            "url": "https://www.youtube.com/embed/7i4EeyCpc50?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Protect",
+            "key": "wHpUqVktG74",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-03 16:00:33 UTC",
+            "id": "615a2f8eb1f68d0027528574",
+            "url": "https://www.youtube.com/embed/wHpUqVktG74?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Final Trailer",
+            "key": "x_me3xsvDgk",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-08-19 07:00:05 UTC",
+            "id": "611e04a787f3f2002c37e9df",
+            "url": "https://www.youtube.com/embed/x_me3xsvDgk?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Teaser",
+            "key": "0WVDKZJkGlY",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-05-24 13:00:01 UTC",
+            "id": "60abaa6d90ea4b0029254fe8",
+            "url": "https://www.youtube.com/embed/0WVDKZJkGlY?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Eternals",
+        "Year": "2021",
+        "Rated": "PG-13",
+        "Released": "05 Nov 2021",
+        "Runtime": "156 min",
+        "Genre": "Action, Adventure, Fantasy",
+        "Director": "Chloé Zhao",
+        "Writer": "Chloé Zhao, Patrick Burleigh, Ryan Firpo",
+        "Actors": "Gemma Chan, Richard Madden, Angelina Jolie",
+        "Plot": "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.",
+        "Language": "English, American Sign , Spanish",
+        "Country": "United Kingdom, United States",
+        "Awards": "1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTExZmVjY2ItYTAzYi00MDdlLWFlOWItNTJhMDRjMzQ5ZGY0XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.9/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "52/100"
+          }
+        ],
+        "Metascore": "52",
+        "imdbRating": "6.9",
+        "imdbVotes": "76,496",
+        "imdbID": "tt9032400",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "$85,021,497",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Saga hinna Eilífu, sem er kynþáttur ódauðlegra geimvera, sem lifað hafa í leyni á Jörðinni og mótað sögu hennar og menningu í þúsundir ára. Eftir atburðina í Avengers: Endgame, þá verður óvæntur harmleikur til þess að hin Eilífu þurfa að koma út úr myrkrinu og berjast ásamt mannkyninu við sameiginlegan óvin."
+  },
+  {
+    "_id": "61a794d5304012cd797602d8",
+    "id": 13519,
+    "ids": {
+      "imdb": "13882736",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Leynilögga",
+    "alternativeTitles": "Cop Secret",
+    "year": "2021",
+    "certificateIS": "16 ára",
+    "durationMinutes": 98,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/leynilögga_poster_fyrir_net-1618574403.jpg",
+    "actors_abridged": [
+      {
+        "name": "Auðunn Blöndal"
+      },
+      {
+        "name": "Egill Einarsson"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Hannes Þór Halldórsson"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.9",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 6,
+          "name": "Álfabakki"
+        },
+        "schedule": [
+          {
+            "time": "20:00 (A)",
+            "purchase_url": "http://www.sambio.is/websales/show/326353/"
+          },
+          {
+            "time": "22:20 (A)",
+            "purchase_url": "http://www.sambio.is/websales/show/326354/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
+        "schedule": [
+          {
+            "time": "19:00 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/326139/"
+          },
+          {
+            "time": "21:10 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/326140/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "20:00 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/326891/"
+          },
+          {
+            "time": "22:10 (2)",
+            "purchase_url": "http://www.sambio.is/websales/show/326892/"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 9,
+          "name": "Sambíóin, Akureyri"
+        },
+        "schedule": [
+          {
+            "time": "20:00 (B)",
+            "purchase_url": "http://www.sambio.is/websales/show/326368/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "16 ára",
+      "color": "red",
+      "number": "16"
+    },
+    "trailers": [
+      {
+        "id": 792775,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Cop Secret (Trailer)",
+            "key": "AVfhmJI_1Do",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2021-09-10 05:37:14 UTC",
+            "id": "6153179f67dcc9008ce8b16c",
+            "url": "https://www.youtube.com/embed/AVfhmJI_1Do?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Cop Secret",
+        "Year": "2021",
+        "Rated": "N/A",
+        "Released": "20 Oct 2021",
+        "Runtime": "98 min",
+        "Genre": "Action, Comedy",
+        "Director": "Hannes Þór Halldórsson",
+        "Writer": "Auðunn Blöndal, Egill Einarsson, Hannes Þór Halldórsson",
+        "Actors": "Auðunn Blöndal, Egill Einarsson, Steinunn Ólína Þorsteinsdóttir",
+        "Plot": "A cop in denial of his sexuality, falls in love with his new partner, while investigating a string of bank break-in.",
+        "Language": "Icelandic, English",
+        "Country": "Iceland",
+        "Awards": "1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYzM3NTY1ZGYtZjEyNC00N2VmLTgzOTItZmZkNDA2YTkzYTQzXkEyXkFqcGdeQXVyNTA0MTkwOTQ@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "8.0/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.0",
+        "imdbVotes": "264",
+        "imdbID": "tt13882736",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Auðunn Blöndal leikur hér besta lögreglumann Reykjavíkur. Hann á í baráttu við sjálfan sig á sama tíma og hann tekst á við hættulegustu glæpamenn landsins."
+  },
+  {
+    "_id": "61a794d5304012cd797602da",
+    "id": 13775,
+    "ids": {
+      "imdb": "13882736",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Leynilögga (12 ára)",
+    "alternativeTitles": "Cop Secret",
+    "year": "2021",
+    "certificateIS": "12 ára",
+    "durationMinutes": 98,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/leyni-1634288448.jpg",
+    "actors_abridged": [
+      {
+        "name": "Auðunn Blöndal"
+      },
+      {
+        "name": "Egill Einarsson"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Hannes Þór Halldórsson"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.9",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 7,
+          "name": "Kringlubíó"
+        },
+        "schedule": [
+          {
+            "time": "16:40 (3)",
+            "purchase_url": "http://www.sambio.is/websales/show/326097/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 792775,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Cop Secret (Trailer)",
+            "key": "AVfhmJI_1Do",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2021-09-10 05:37:14 UTC",
+            "id": "6153179f67dcc9008ce8b16c",
+            "url": "https://www.youtube.com/embed/AVfhmJI_1Do?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Cop Secret",
+        "Year": "2021",
+        "Rated": "N/A",
+        "Released": "20 Oct 2021",
+        "Runtime": "98 min",
+        "Genre": "Action, Comedy",
+        "Director": "Hannes Þór Halldórsson",
+        "Writer": "Auðunn Blöndal, Egill Einarsson, Hannes Þór Halldórsson",
+        "Actors": "Auðunn Blöndal, Egill Einarsson, Steinunn Ólína Þorsteinsdóttir",
+        "Plot": "A cop in denial of his sexuality, falls in love with his new partner, while investigating a string of bank break-in.",
+        "Language": "Icelandic, English",
+        "Country": "Iceland",
+        "Awards": "1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYzM3NTY1ZGYtZjEyNC00N2VmLTgzOTItZmZkNDA2YTkzYTQzXkEyXkFqcGdeQXVyNTA0MTkwOTQ@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "8.0/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.0",
+        "imdbVotes": "264",
+        "imdbID": "tt13882736",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Auðunn Blöndal leikur hér besta lögreglumann Reykjavíkur. Hann á í baráttu við sjálfan sig á sama tíma og hann tekst á við hættulegustu glæpamenn landsins."
+  },
+  {
+    "_id": "61a794d5304012cd797602dc",
+    "id": 12351,
+    "ids": {
+      "imdb": "2382320",
+      "rotten": null,
+      "tmdb": null
+    },
+    "title": "No Time to Die",
+    "alternativeTitles": "Bond 25",
+    "year": "2020",
+    "certificateIS": "12 ára",
+    "durationMinutes": 163,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 6,
+        "Name": "Spennutryllir",
+        "NameEN\t": "Thriller"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/1541923_500-1630571674.jpg",
+    "actors_abridged": [
+      {
+        "name": "Daniel Craig"
+      },
+      {
+        "name": "Rami Malek"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Cary Fukunaga"
+      }
+    ],
+    "ratings": {
+      "imdb": "7.4",
+      "rotten_audience": null,
+      "rotten_critics": "84"
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "21.50 (4)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78656&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 3,
+          "name": "Borgarbíó"
+        },
+        "schedule": [
+          {
+            "time": "19.00 (r)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=0000000004&txtSessionId=4795&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 4,
+          "name": "Laugarásbíó"
+        },
+        "schedule": [
+          {
+            "time": "17:45 (B)",
+            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/624222/"
+          },
+          {
+            "time": "21:10 (B)",
+            "purchase_url": "http://kvikmyndahusio.azurewebsites.net/websales/show/624223/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 370172,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NO TIME TO DIE | Final US Trailer",
+            "key": "N_gD9-Oa0fg",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-08-31 15:38:23 UTC",
+            "id": "612fbfafc1ffbd00630e8717",
+            "url": "https://www.youtube.com/embed/N_gD9-Oa0fg?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NO TIME TO DIE | Final International Trailer",
+            "key": "FREBR6FH1rg",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-08-31 15:31:57 UTC",
+            "id": "612fbfc16a34480090f527d7",
+            "url": "https://www.youtube.com/embed/FREBR6FH1rg?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NO TIME TO DIE | Bond is Back | Only in Cinemas October",
+            "key": "tTkJQh1_yQY",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-07-26 07:58:46 UTC",
+            "id": "60fef6347ad08c002d6dee42",
+            "url": "https://www.youtube.com/embed/tTkJQh1_yQY?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NO TIME TO DIE l Meet Safin",
+            "key": "dCYRog1dosI",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2020-09-14 13:00:03 UTC",
+            "id": "5f60f44c706b9f0039082f9f",
+            "url": "https://www.youtube.com/embed/dCYRog1dosI?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NO TIME TO DIE | Trailer 2",
+            "key": "vw2FOYjCz38",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2020-09-03 11:00:01 UTC",
+            "id": "5f50dd45c740d900358bbb58",
+            "url": "https://www.youtube.com/embed/vw2FOYjCz38?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NO TIME TO DIE | Trailer Tomorrow",
+            "key": "d2sJtfkfggk",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2020-09-02 17:00:02 UTC",
+            "id": "5f60f49d31234500376a9696",
+            "url": "https://www.youtube.com/embed/d2sJtfkfggk?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Director Cary Joji Fukunaga on NO TIME TO DIE",
+            "key": "g4aSE4FhbG4",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2020-02-25 14:00:08 UTC",
+            "id": "5eda62dafea0d7001e929d7e",
+            "url": "https://www.youtube.com/embed/g4aSE4FhbG4?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "No Time To Die | NBA All-Star Game TV Spot",
+            "key": "uI13bxfdrMc",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2020-02-15 16:00:11 UTC",
+            "id": "5e54415d35811d001559b389",
+            "url": "https://www.youtube.com/embed/uI13bxfdrMc?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NO TIME TO DIE | Official Game Day Spot 2020",
+            "key": "7BgcG_l9J0A",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2020-02-03 00:49:14 UTC",
+            "id": "5e54413735811d00195ada8f",
+            "url": "https://www.youtube.com/embed/7BgcG_l9J0A?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NO TIME TO DIE Trailer (Global)",
+            "key": "BIhNsAtPbPI",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2019-12-04 13:25:16 UTC",
+            "id": "5de7b4ec3faba000131346c0",
+            "url": "https://www.youtube.com/embed/BIhNsAtPbPI?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NO TIME TO DIE Teaser",
+            "key": "QMrGxC60vzk",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2019-12-02 01:20:12 UTC",
+            "id": "5de5a543a7e36300146ea75d",
+            "url": "https://www.youtube.com/embed/QMrGxC60vzk?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "NO TIME TO DIE",
+            "key": "IDxMam77onE",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2019-10-05 05:50:17 UTC",
+            "id": "5de72858a7e3630014712cd9",
+            "url": "https://www.youtube.com/embed/IDxMam77onE?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official title reveal of Bond 25",
+            "key": "ChJ_afRiUzo",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2019-08-20 15:59:35 UTC",
+            "id": "5d5ea961f263ba7c4e94542f",
+            "url": "https://www.youtube.com/embed/ChJ_afRiUzo?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "On set with Bond 25: Jamaica",
+            "key": "NQkO0Shirl8",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2019-06-25 12:00:19 UTC",
+            "id": "5d405a659cc67b0011777163",
+            "url": "https://www.youtube.com/embed/NQkO0Shirl8?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "No Time to Die",
+        "Year": "2021",
+        "Rated": "PG-13",
+        "Released": "08 Oct 2021",
+        "Runtime": "163 min",
+        "Genre": "Action, Adventure, Thriller",
+        "Director": "Cary Joji Fukunaga",
+        "Writer": "Neal Purvis, Robert Wade, Cary Joji Fukunaga",
+        "Actors": "Daniel Craig, Ana de Armas, Rami Malek",
+        "Plot": "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+        "Language": "English, French, Italian, Russian, Spanish, German",
+        "Country": "United Kingdom, United States",
+        "Awards": "3 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.5/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "84%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "68/100"
+          }
+        ],
+        "Metascore": "68",
+        "imdbRating": "7.5",
+        "imdbVotes": "166,926",
+        "imdbID": "tt2382320",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "https://www.rottentomatoes.com/m/bond_25",
+        "DVD": "09 Nov 2021",
+        "BoxOffice": "$144,862,031",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Sagan hefst þar sem Bond er að slaka á á Jamaíku, eftir að hafa lagt byssuna á hilluna. En allt breytist þegar gamall vinur hans Felix Leiter frá bandarísku leyniþjónustunni CIA kemur og biður um aðstoð. Bond kemst nú á snoðir um ill áform dularfulls þorpara, sem býr yfir hættulegri nýrri tækni."
+  },
+  {
+    "_id": "61a794d5304012cd797602e7",
+    "id": 13636,
+    "ids": {
+      "imdb": "11125620",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "The Addams Family 2",
+    "alternativeTitles": "Addams fjölskyldan 2",
+    "year": "2021",
+    "certificateIS": "Öllum leyfð",
+    "durationMinutes": 93,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      },
+      {
+        "ID": 70,
+        "Name": "Teiknimynd",
+        "NameEN\t": "Animation"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/13636_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Oscar Isaac"
+      },
+      {
+        "name": "Charlize Theron"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Conrad Vernon"
+      },
+      {
+        "name": "Greg Tiernan"
+      }
+    ],
+    "ratings": {
+      "imdb": "5.4",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "15.00 (X)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78695&visLang=1"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "Öllum leyfð",
+      "color": "green",
+      "number": "L"
+    },
+    "trailers": [
+      {
+        "id": 639721,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer 2",
+            "key": "946LiJiMQrQ",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-09-07 15:00:03 UTC",
+            "id": "6137a9ddf29d660044d22848",
+            "url": "https://www.youtube.com/embed/946LiJiMQrQ?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer",
+            "key": "Kd82bSBDE84",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-07-07 15:03:27 UTC",
+            "id": "60e5ce40db154f005e4f2f9c",
+            "url": "https://www.youtube.com/embed/Kd82bSBDE84?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Announcement",
+            "key": "4_JA4cG0Rp0",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2020-10-08 16:00:03 UTC",
+            "id": "5f7f82a22f3b170036f41ee3",
+            "url": "https://www.youtube.com/embed/4_JA4cG0Rp0?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "The Addams Family 2",
+        "Year": "2021",
+        "Rated": "PG",
+        "Released": "01 Oct 2021",
+        "Runtime": "93 min",
+        "Genre": "Animation, Adventure, Comedy",
+        "Director": "Greg Tiernan, Conrad Vernon, Laura Brousseau",
+        "Writer": "Dan Hernandez, Benji Samit, Ben Queen",
+        "Actors": "Oscar Isaac, Charlize Theron, Chloë Grace Moretz",
+        "Plot": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters. Sequel to the 2019 animated film, 'The Addams Family'.",
+        "Language": "English, Spanish, Latin",
+        "Country": "United States, Canada",
+        "Awards": "1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzQ5NzJjMDgtNzhjMC00NTQ2LTgzOTUtZThiMWMwYmYwMGYxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "5.4/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "37/100"
+          }
+        ],
+        "Metascore": "37",
+        "imdbRating": "5.4",
+        "imdbVotes": "6,395",
+        "imdbID": "tt11125620",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "$55,143,470",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Addams fjölskyldan lendir hér í fleiri stórskrítnum ævintýrum, og hittir allskonar óvæntar persónur. Morticia og Gomes eru leið yfir því að börnin þeirra eru að vaxa úr grasi, þau hætta að vera með á matmálstímum og eru algjörlega niðursokkin í \"Ótíma\", eða \"Scream Time\". Til að styrkja fjölskylduböndin þá ákveða þau að troða Wednesday, Pugsley, Fester frænda og liðinu inn í ferðavagn og fara í ferðalag í eitt lokaskipti."
+  },
+  {
+    "_id": "61a794d5304012cd797602f7",
+    "id": 13525,
+    "ids": {
+      "imdb": "14033502",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Bad Luck Banging or Loony Porn",
+    "alternativeTitles": "Babardeala cu bucluc sau porno balamuc",
+    "year": "2021",
+    "certificateIS": "16 ára",
+    "durationMinutes": 106,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/13525_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Katia Pascariu"
+      },
+      {
+        "name": "Claudia Ieremia"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Radu Jude"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.7",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "22.00 (1)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/12449/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "16 ára",
+      "color": "red",
+      "number": "16"
+    },
+    "trailers": [
+      {
+        "id": 790496,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Bad Luck Banging or Loony Porn | Official Trailer | Berlinale 2021",
+            "key": "8AEgcTSMSOY",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2021-02-24 16:54:16 UTC",
+            "id": "60417b4163aad2005685e0d1",
+            "url": "https://www.youtube.com/embed/8AEgcTSMSOY?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Babardeala cu bucluc sau porno balamuc",
+        "Year": "2021",
+        "Rated": "N/A",
+        "Released": "19 Nov 2021",
+        "Runtime": "106 min",
+        "Genre": "Comedy, Drama",
+        "Director": "Radu Jude",
+        "Writer": "Radu Jude",
+        "Actors": "Katia Pascariu, Claudia Ieremia, Olimpia Malai",
+        "Plot": "Emi, a school teacher, finds her career and reputation under threat after a personal sex tape is leaked on the Internet. Forced to meet the parents demanding her dismissal, Emi refuses to surrender to their pressure.",
+        "Language": "Romanian, English, Czech, French, Russian",
+        "Country": "Romania, Luxembourg, Czech Republic, Croatia, Switzerland, United Kingdom",
+        "Awards": "3 wins & 8 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzMwZTRmODQtNTcwMC00ZTU2LTgyODMtNWIxOGMzZGVkZDIxXkEyXkFqcGdeQXVyMjQxNjA1MzU@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.8/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "69/100"
+          }
+        ],
+        "Metascore": "69",
+        "imdbRating": "6.8",
+        "imdbVotes": "2,741",
+        "imdbID": "tt14033502",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Kennarinn Emi kemst í hann krappann eftir að kynlífsmyndbandi sem hún og maður hennar tóku upp er lekið á netið. Henni er gert að hitta foreldra barnanna sem hún kennir og útskýra sína hlið á málinu."
+  },
+  {
+    "_id": "61a794d5304012cd797602fa",
+    "id": 13357,
+    "ids": {
+      "imdb": "9288726",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Mama Weed",
+    "alternativeTitles": "La daronne",
+    "year": "2020",
+    "certificateIS": "12 ára",
+    "durationMinutes": 104,
+    "genres": [
+      {
+        "ID": 2,
+        "Name": "Gamanmynd",
+        "NameEN\t": "Comedy"
+      },
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 8,
+        "Name": "Glæpamynd",
+        "NameEN\t": "Crime"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/13357_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Isabelle Huppert"
+      },
+      {
+        "name": "Hippolyte Girardot"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Jean-Paul Salomé"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.2",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "19.50 (1)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/10892/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 575463,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Mama Weed / La Daronne (2020) - Trailer (English Subs)",
+            "key": "VxJ64hB0G_I",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2020-01-21 15:32:38 UTC",
+            "id": "5ffa10a1b5400200400de8b6",
+            "url": "https://www.youtube.com/embed/VxJ64hB0G_I?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Mama Weed",
+        "Year": "2020",
+        "Rated": "N/A",
+        "Released": "16 Jul 2021",
+        "Runtime": "104 min",
+        "Genre": "Comedy, Crime, Drama",
+        "Director": "Jean-Paul Salomé",
+        "Writer": "Hannelore Cayre, Jean-Paul Salomé, Antoine Salomé",
+        "Actors": "Isabelle Huppert, Yann Sundberg, Michaël Louchart",
+        "Plot": "A translator working for the police gets involved in the other side of drug dealing.",
+        "Language": "French, Arabic, Yiddish",
+        "Country": "France, Belgium",
+        "Awards": "1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWQxYjNiOGYtZDNiOC00OWY2LTkxNjQtY2VhODYzNDk5ZjE3XkEyXkFqcGdeQXVyNDU0NjMyNTQ@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.2/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "58/100"
+          }
+        ],
+        "Metascore": "58",
+        "imdbRating": "6.2",
+        "imdbVotes": "2,166",
+        "imdbID": "tt9288726",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "$29,151",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Léttgeggjuð gamanmynd eftir leikstjórann Jean-Paul Salomé og skartar Isabelle Huppert í aðalhlutverki sem Patience Portefeux sem á tvær dætur í háskólanámi og aldraða móður á elliheimili. Lúsarlaunin sem hún fær sem túlkur hjá dómsmálaráðuneytinu duga fjölskyldunni engan veginn og útséð um að nokkuð sé hægt að leggja fyrir til efri áranna. En dag einn kemst hún á snoðir um yfirgefna hasssendingu og þá stígur hin harðsvíraða glæpadrottning Mútta fram á sjónarsviðið."
+  },
+  {
+    "_id": "61a794d5304012cd797602fe",
+    "id": 13768,
+    "ids": {
+      "imdb": "15143148",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Wyszynski - zemsta czy przebaczenie",
+    "alternativeTitles": "",
+    "year": "2021",
+    "certificateIS": {
+      "is": "N/A",
+      "color": "green",
+      "number": "L"
+    },
+    "durationMinutes": 90,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 36,
+        "Name": "Stríðsmynd",
+        "NameEN\t": "War"
+      },
+      {
+        "ID": 42,
+        "Name": "Æviágrip",
+        "NameEN\t": "Biography"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/wyz-1633861459.jpg",
+    "actors_abridged": [
+      {
+        "name": "Ksawery Szlenkier"
+      },
+      {
+        "name": "Malgorzata Kozuchowska"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Tadeusz Syka"
+      }
+    ],
+    "ratings": {
+      "imdb": "6",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "20.00 (2)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/12458/"
+          }
+        ]
+      }
+    ],
+    "trailers": [
+      {
+        "id": 875985,
+        "results": []
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Wyszynski - zemsta czy przebaczenie",
+        "Year": "2021",
+        "Rated": "N/A",
+        "Released": "17 Sep 2021",
+        "Runtime": "90 min",
+        "Genre": "Biography, Drama, War",
+        "Director": "Tadeusz Syka",
+        "Writer": "Tadeusz Syka",
+        "Actors": "Ksawery Szlenkier, Malgorzata Kozuchowska, Agnieszka Kawiorska",
+        "Plot": "N/A",
+        "Language": "Polish",
+        "Country": "Poland",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTE1ZDViNjgtZmM4OC00Mzk1LTkwMzktYzUxNzYzZGY5ODViXkEyXkFqcGdeQXVyNTY4ODAxODI@._V1_SX300.jpg",
+        "Ratings": [],
+        "Metascore": "N/A",
+        "imdbRating": "N/A",
+        "imdbVotes": "43",
+        "imdbID": "tt15143148",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Ævisaga hins áhrifamikla kaþólska prests Stefan Wyszyński, sem síðar varð erkibiskup Póllands."
+  },
+  {
+    "_id": "61a794d5304012cd79760304",
+    "id": 13529,
+    "ids": {
+      "imdb": "11007444",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Tove",
+    "alternativeTitles": "",
+    "year": "2020",
+    "certificateIS": "12 ára",
+    "durationMinutes": 100,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 42,
+        "Name": "Æviágrip",
+        "NameEN\t": "Biography"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/13529_500.jpg",
+    "actors_abridged": [
+      {
+        "name": "Alma Pöysti"
+      },
+      {
+        "name": "Krista Kosonen"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Zaida Bergroth"
+      }
+    ],
+    "ratings": {
+      "imdb": "7",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "17.40 (2)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/12327/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 608232,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "TOVE (2020) Trailer | Moomins Creator Movie",
+            "key": "pw_JrV8HYHE",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": false,
+            "published_at": "2020-06-24 06:00:09 UTC",
+            "id": "5ef8a5f4e93e950033ba3458",
+            "url": "https://www.youtube.com/embed/pw_JrV8HYHE?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Tove",
+        "Year": "2020",
+        "Rated": "N/A",
+        "Released": "02 Oct 2020",
+        "Runtime": "103 min",
+        "Genre": "Biography, Drama, History",
+        "Director": "Zaida Bergroth",
+        "Writer": "Eeva Putro, Jarno Elonen",
+        "Actors": "Alma Pöysti, Krista Kosonen, Shanti Roney",
+        "Plot": "The movie centres on the life of Tove Jansson, showing both her personal relationships, and the creation of the popular Moomin books.",
+        "Language": "Swedish, Finnish, English, French",
+        "Country": "Finland, Sweden",
+        "Awards": "11 wins & 6 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYTE1M2E4MzQtYzkwMC00MGZjLTg3ZjQtZmEzNDU4Y2NlY2I5XkEyXkFqcGdeQXVyNjQ5ODA5NQ@@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.0/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "63/100"
+          }
+        ],
+        "Metascore": "63",
+        "imdbRating": "7.0",
+        "imdbVotes": "1,648",
+        "imdbID": "tt11007444",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Stórkostleg kvikmynd byggð á ævi Tove Jansson, skapara múmínálfanna sem lætur engan ósnortinn! Komdu inn í heillandi heim listamanns. Stigið er inn í skemmtanalíf bóhema þar sem jazzslagarar óma og eitthvað mjög spennandi er í loftinu. Þaðan förum við inn í rýmið þar sem sjálfir múmínálfarnir urðu til!"
+  },
+  {
+    "_id": "61a794d5304012cd79760324",
+    "id": 13184,
+    "ids": {
+      "imdb": "7097896",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Venom: Let There Be Carnage",
+    "alternativeTitles": "Venom 2",
+    "year": "2021",
+    "certificateIS": "12 ára",
+    "durationMinutes": 97,
+    "genres": [
+      {
+        "ID": 1,
+        "Name": "Spennumynd",
+        "NameEN\t": "Action"
+      },
+      {
+        "ID": 31,
+        "Name": "Vísindaskáldskapur",
+        "NameEN\t": "Sci-Fi"
+      },
+      {
+        "ID": 32,
+        "Name": "Ævintýramynd",
+        "NameEN\t": "Adventure"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/venom-1632946889.jpg",
+    "actors_abridged": [
+      {
+        "name": "Tom Hardy"
+      },
+      {
+        "name": "Michelle Williams"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Andy Serkis"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.1",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 1,
+          "name": "Smárabíó"
+        },
+        "schedule": [
+          {
+            "time": "17.30 (4)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78737&visLang=1"
+          },
+          {
+            "time": "19.40 (4)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78654&visLang=1"
+          },
+          {
+            "time": "22.30 (5)",
+            "purchase_url": "https://sala.smarabio.is/Ticketing/visSelectTickets.aspx?cinemacode=002&txtSessionId=78659&visLang=1"
+          }
+        ]
+      },
+      {
+        "cinema": {
+          "id": 8,
+          "name": "Sambíóin Egilshöll"
+        },
+        "schedule": [
+          {
+            "time": "17:30 (4)",
+            "purchase_url": "http://www.sambio.is/websales/show/326896/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 580489,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Bloopers - Woody Harrelson",
+            "key": "Ob3bp3jTc84",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Bloopers",
+            "official": true,
+            "published_at": "2021-11-26 20:00:11 UTC",
+            "id": "61a60d423d4d9600640f4869",
+            "url": "https://www.youtube.com/embed/Ob3bp3jTc84?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Cletus' Cell | Easter Eggs",
+            "key": "V_DI423k13Y",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-11-24 23:00:26 UTC",
+            "id": "61a0e0883e2ec800298f0504",
+            "url": "https://www.youtube.com/embed/V_DI423k13Y?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "The Shape of Carnage",
+            "key": "M4jGqg6sAZo",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-11-23 23:00:20 UTC",
+            "id": "61a0e0aec5c1ef00949f450b",
+            "url": "https://www.youtube.com/embed/M4jGqg6sAZo?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Extended Preview - First 7 Minutes",
+            "key": "i7X2hX7ecHM",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-11-23 20:05:30 UTC",
+            "id": "61a0e0e9be4b360029a87950",
+            "url": "https://www.youtube.com/embed/i7X2hX7ecHM?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Extended Deleted Clip - Beach",
+            "key": "9ZEDzZPVlBI",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-11-18 21:00:03 UTC",
+            "id": "61a0e13edcb6a30063af07bc",
+            "url": "https://www.youtube.com/embed/9ZEDzZPVlBI?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Special Features Preview",
+            "key": "Ocx6mjkrcgk",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Behind the Scenes",
+            "official": true,
+            "published_at": "2021-11-18 19:01:15 UTC",
+            "id": "61a0e15e6f43ec004514735e",
+            "url": "https://www.youtube.com/embed/Ocx6mjkrcgk?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Right Thing",
+            "key": "Bc4IOPHyjfs",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-11-06 16:00:04 UTC",
+            "id": "61a0e1b7d37197004453a198",
+            "url": "https://www.youtube.com/embed/Bc4IOPHyjfs?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Burj Khalifa Takeover",
+            "key": "XK-MIqHz5tU",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-30 16:00:14 UTC",
+            "id": "61800b461c6aa70043725b74",
+            "url": "https://www.youtube.com/embed/XK-MIqHz5tU?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Wishes",
+            "key": "A47y6VJNols",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-20 20:11:09 UTC",
+            "id": "6172dadd6d4c9700653c2459",
+            "url": "https://www.youtube.com/embed/A47y6VJNols?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Cletus and Carnage",
+            "key": "vDTkS8pYhVk",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-10-14 21:24:15 UTC",
+            "id": "6172dbb95294e7002a37601e",
+            "url": "https://www.youtube.com/embed/vDTkS8pYhVk?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Locked Up",
+            "key": "Rh-KrcsM1kA",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-09 16:00:31 UTC",
+            "id": "6172dc0e176a940042b8ca32",
+            "url": "https://www.youtube.com/embed/Rh-KrcsM1kA?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Wild Entertainment",
+            "key": "jU8VNQKKF-g",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-10-04 23:49:42 UTC",
+            "id": "615f03ca8e2ba600434da5f7",
+            "url": "https://www.youtube.com/embed/jU8VNQKKF-g?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Break It",
+            "key": "Cci_ue7Gqwc",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-10-02 16:00:05 UTC",
+            "id": "6172dc6f176a940023b2a9bd",
+            "url": "https://www.youtube.com/embed/Cci_ue7Gqwc?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Secrets of Cletus Kasady 360 Experience",
+            "key": "NMzJbD53ODc",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-09-30 20:00:03 UTC",
+            "id": "6172dd0e90fca360b136db53",
+            "url": "https://www.youtube.com/embed/NMzJbD53ODc?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Last One Standing",
+            "key": "gU4vcJIbeOU",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-09-29 20:32:18 UTC",
+            "id": "6155f382d2147c0044df142d",
+            "url": "https://www.youtube.com/embed/gU4vcJIbeOU?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "The Birth of Carnage",
+            "key": "q8O-0zZn6_w",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": false,
+            "published_at": "2021-09-29 13:00:22 UTC",
+            "id": "6155f43baf58cb002afcfb47",
+            "url": "https://www.youtube.com/embed/q8O-0zZn6_w?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Shriek",
+            "key": "zulYWSjrqb0",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-09-27 23:00:33 UTC",
+            "id": "6155f729dcb6a3002a92bb30",
+            "url": "https://www.youtube.com/embed/zulYWSjrqb0?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Eddie and Venom",
+            "key": "U9Lx4raR_Ls",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-09-27 17:00:17 UTC",
+            "id": "6152885ed1ca2a009069f7c7",
+            "url": "https://www.youtube.com/embed/U9Lx4raR_Ls?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Prison Break",
+            "key": "WOhht3fvPYI",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-09-27 13:30:10 UTC",
+            "id": "6151f85667203d0043f58c50",
+            "url": "https://www.youtube.com/embed/WOhht3fvPYI?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Fans First Screening",
+            "key": "SpSxcgtG1xU",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-09-22 17:00:31 UTC",
+            "id": "61800a80d236e600434293ee",
+            "url": "https://www.youtube.com/embed/SpSxcgtG1xU?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Roommates ft. George Kittle (ESPN)",
+            "key": "Jkt44NSiMk0",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Featurette",
+            "official": true,
+            "published_at": "2021-09-20 23:00:05 UTC",
+            "id": "61800a4c84f2490063b1b077",
+            "url": "https://www.youtube.com/embed/Jkt44NSiMk0?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer 2",
+            "key": "-FmWuCgJmxo",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-08-02 13:00:00 UTC",
+            "id": "6107ec7d7719d7002c9e4076",
+            "url": "https://www.youtube.com/embed/-FmWuCgJmxo?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer",
+            "key": "-ezfi6FQ8Ds",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-05-10 13:00:00 UTC",
+            "id": "60992f8b97eab4003bd15b68",
+            "url": "https://www.youtube.com/embed/-ezfi6FQ8Ds?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Teaser Trailer",
+            "key": "_s4qXyZOJSQ",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2020-04-21 23:45:04 UTC",
+            "id": "5ee11ba6dbf144001d906e58",
+            "url": "https://www.youtube.com/embed/_s4qXyZOJSQ?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Venom: Let There Be Carnage",
+        "Year": "2021",
+        "Rated": "PG-13",
+        "Released": "01 Oct 2021",
+        "Runtime": "97 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Andy Serkis",
+        "Writer": "Kelly Marcel, Tom Hardy, Todd McFarlane",
+        "Actors": "Tom Hardy, Woody Harrelson, Michelle Williams",
+        "Plot": "Eddie Brock attempts to reignite his career by interviewing serial killer Cletus Kasady, who becomes the host of the symbiote Carnage and escapes prison after a failed execution.",
+        "Language": "English",
+        "Country": "United States, United Kingdom, Canada",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYTc3ZTAwYTgtMmM4ZS00MDRiLWI2Y2EtYmRiZmE0YjkzMGY1XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.3/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "48/100"
+          }
+        ],
+        "Metascore": "48",
+        "imdbRating": "6.3",
+        "imdbVotes": "69,425",
+        "imdbID": "tt7097896",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "$203,700,066",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Eddie Brock reynir að laga sig að sínu nýja lífi, sem hýsill lífverunnar Venom, sem er ættuð utan úr geimnum. Venom veitir Brock ofurhæfileika sem hann notar til að vera sjálfskipaður löggæslumaður götunnar. Brock reynir að endurvekja feril sinn sem blaðamaður með því að taka viðtal við raðmorðingjann Cletus Kasady. Hann á síðan eftir að breytast í hýsil fyrir lífveruna Carnage en Kasady sleppur úr fangelsi eftir að aftaka hans fer forgörðum."
+  },
+  {
+    "_id": "61a794d5304012cd7976032d",
+    "id": 13585,
+    "ids": {
+      "imdb": "9812474",
+      "rotten": null,
+      "tmdb": "0"
+    },
+    "title": "Dýrið",
+    "alternativeTitles": "Lamb",
+    "year": "2021",
+    "certificateIS": "12 ára",
+    "durationMinutes": 106,
+    "genres": [
+      {
+        "ID": 4,
+        "Name": "Drama",
+        "NameEN\t": "Drama"
+      },
+      {
+        "ID": 5,
+        "Name": "Hrollvekja",
+        "NameEN\t": "Horror"
+      },
+      {
+        "ID": 38,
+        "Name": "Ráðgáta",
+        "NameEN\t": "Mystery"
+      },
+      {
+        "ID": 75,
+        "Name": "Íslensk mynd",
+        "NameEN\t": "Icelandic movie"
+      }
+    ],
+    "poster": "http://kvikmyndir.is/images/poster/224519980_10159446941430917_4339439686369182734_n-1627398208.jpg",
+    "actors_abridged": [
+      {
+        "name": "Noomi Rapace"
+      },
+      {
+        "name": "Hilmir Snær Guðnason"
+      }
+    ],
+    "directors_abridged": [
+      {
+        "name": "Valdimar Jóhannsson"
+      }
+    ],
+    "ratings": {
+      "imdb": "6.3",
+      "rotten_audience": null,
+      "rotten_critics": null
+    },
+    "showtimes": [
+      {
+        "cinema": {
+          "id": 5,
+          "name": "Bíó Paradís"
+        },
+        "schedule": [
+          {
+            "time": "22.00 (2)",
+            "purchase_url": "https://tix.is/is/buyingflow/tickets/12135/"
+          }
+        ]
+      }
+    ],
+    "certificate": {
+      "is": "12 ára",
+      "color": "yellow",
+      "number": "12"
+    },
+    "trailers": [
+      {
+        "id": 788929,
+        "results": [
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "5 Minute Preview",
+            "key": "sMHsS6MlHhk",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Clip",
+            "official": true,
+            "published_at": "2021-11-08 14:00:18 UTC",
+            "id": "6189c2ee160e730029e2e3dc",
+            "url": "https://www.youtube.com/embed/sMHsS6MlHhk?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "Official Trailer",
+            "key": "hnEwJKVWjFM",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Trailer",
+            "official": true,
+            "published_at": "2021-07-27 14:00:27 UTC",
+            "id": "610040f1db72c03bfb1ed8a2",
+            "url": "https://www.youtube.com/embed/hnEwJKVWjFM?rel=0"
+          },
+          {
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "name": "International Teaser",
+            "key": "3uX4OshOss0",
+            "site": "YouTube",
+            "size": 1080,
+            "type": "Teaser",
+            "official": true,
+            "published_at": "2021-07-05 10:18:34 UTC",
+            "id": "60e4893684591c0045c53015",
+            "url": "https://www.youtube.com/embed/3uX4OshOss0?rel=0"
+          }
+        ]
+      }
+    ],
+    "omdb": [
+      {
+        "Title": "Lamb",
+        "Year": "2021",
+        "Rated": "R",
+        "Released": "24 Sep 2021",
+        "Runtime": "106 min",
+        "Genre": "Drama, Horror, Mystery",
+        "Director": "Valdimar Jóhannsson",
+        "Writer": "Sjón, Valdimar Jóhannsson",
+        "Actors": "Noomi Rapace, Hilmir Snær Guðnason, Björn Hlynur Haraldsson",
+        "Plot": "A childless couple, María and Ingvar discover a mysterious newborn on their farm in Iceland. The unexpected prospect of family life brings them much joy, before ultimately destroying them.",
+        "Language": "Icelandic",
+        "Country": "Iceland, Sweden, Poland",
+        "Awards": "7 wins & 10 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzYzZTI2YmQtYmZlOS00NDI0LTg5MTktODJkNzc2Yzg0ZmMxXkEyXkFqcGdeQXVyNTQwOTY1MTg@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.3/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "69/100"
+          }
+        ],
+        "Metascore": "69",
+        "imdbRating": "6.3",
+        "imdbVotes": "9,818",
+        "imdbID": "tt9812474",
+        "Type": "movie",
+        "tomatoMeter": "N/A",
+        "tomatoImage": "N/A",
+        "tomatoRating": "N/A",
+        "tomatoReviews": "N/A",
+        "tomatoFresh": "N/A",
+        "tomatoRotten": "N/A",
+        "tomatoConsensus": "N/A",
+        "tomatoUserMeter": "N/A",
+        "tomatoUserRating": "N/A",
+        "tomatoUserReviews": "N/A",
+        "tomatoURL": "N/A",
+        "DVD": "N/A",
+        "BoxOffice": "$2,676,410",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "plot": "Dýrið segir frá sauðfjárbændunum Maríu og Ingvari sem búa í fögrum en afskekktum dal og þegar dularfull vera fæðist á bóndabænum ákveða þau að halda henni og ala upp sem sitt eigið afkvæmi. Vonin um nýja fjölskyldu færir þeim mikla hamingju um stund en verður þeim síðar að tortímingu."
+  }
+]
