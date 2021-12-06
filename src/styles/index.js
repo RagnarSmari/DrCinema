@@ -8,7 +8,8 @@ export default StyleSheet.create({
   renderCinema: {
   },
   cinemaLogo: {
-    width: '70%',
-    height: '80%',
+    resizeMode: 'contain',
+    flex: 1,
+    width: '100%',
   },
 });

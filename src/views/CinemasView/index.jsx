@@ -18,29 +18,36 @@ const Cinemas = function ({ navigation: { navigate } }) {
   }, []);
   const allCinemas = useSelector((s) => s.cinemas);
 
-  const renderCinema = ({ item }) =>
-    // console.log(item);
-    (
-      <View style={{ width: '100%' }}>
-        <TouchableOpacity onPress={() => navigate('CinemaDetail')}>
-          <Text>hello</Text>
-          <Image
-            style={styles.cinemaLogo}
-            source={item.logo}
-          />
-        </TouchableOpacity>
-      </View>
+  const renderCinema = ({ item }) => (
+    <View>
+      <TouchableOpacity
+        onPress={() => navigate('CinemaDetail', {
+          cinema: item,
+        })}
+      >
+        <Image
+          style={styles.cinemaLogo}
+          source={item.logo}
+        />
+      </TouchableOpacity>
+      {/* <Text */}
+      {/*  style={{ color: 'blue' }} */}
+      {/*  onPress={() => Linking.openURL(`https://${item.website}`)} */}
+      {/* > */}
+      {/*  ýttu hér raggi 💩 */}
+      {/* </Text> */}
+    </View>
 
-    );
+  );
   return (
-    <View styles={{ flex: 1 }}>
+    <View>
       <FlatList
         data={allCinemas}
         renderItem={renderCinema}
         numColumns={1}
-        // contentContainerStyle={{ height: '100%' }}
         nestedScrollEnabled
-        initialNumToRender={11}
+        vertical
+        keyExtractor={(item) => item.id}
       />
     </View>
 
