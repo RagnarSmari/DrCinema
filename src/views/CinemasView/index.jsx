@@ -19,28 +19,34 @@ const Cinemas = function ({ navigation: { navigate } }) {
   const allCinemas = useSelector((s) => s.cinemas);
 
   const renderCinema = ({ item }) => (
-    <View>
+    <View style={[styles.card, styles.shadowProp]}>
       <TouchableOpacity
         onPress={() => navigate('CinemaDetail', {
           cinema: item,
         })}
       >
-        <Image
-          style={styles.cinemaLogo}
-          source={item.logo}
-        />
+        <View>
+          <Image
+            style={styles.cinemaLogo}
+            source={item.logo}
+          />
+        </View>
+
       </TouchableOpacity>
-      {/* <Text */}
-      {/*  style={{ color: 'blue' }} */}
-      {/*  onPress={() => Linking.openURL(`https://${item.website}`)} */}
-      {/* > */}
-      {/*  ýttu hér raggi 💩 */}
-      {/* </Text> */}
     </View>
 
   );
   return (
+
     <View>
+      <View style={[styles.card, styles.shadowProp, styles.Upcoming]}>
+        <TouchableOpacity>
+          <Text style={styles.UpcommingText}>Upcoming Movies</Text>
+        </TouchableOpacity>
+      </View>
+
+      <Text style={styles.heading}>Cinemas</Text>
+
       <FlatList
         data={allCinemas}
         renderItem={renderCinema}
