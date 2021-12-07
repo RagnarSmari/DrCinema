@@ -16,7 +16,7 @@ const Cinemas = function ({ navigation: { navigate } }) {
   useEffect(async () => {
     dispatch(getAllCinemas());
     dispatch(getAllMovies());
-    // dispatch(getAllUpComingMovies());
+    dispatch(getAllUpComingMovies());
   }, []);
   const allCinemas = useSelector((s) => s.cinemas);
 
@@ -48,7 +48,7 @@ const Cinemas = function ({ navigation: { navigate } }) {
         keyExtractor={(item) => item.id}
         ListHeaderComponent={() => (
           <>
-            <TouchableOpacity onpress={() => navigate('upcomingMovies')}>
+            <TouchableOpacity onPress={() => navigate('upcomingMovies')}>
               <View style={[styles.card, styles.shadowProp, styles.Upcoming]}>
                 <Text style={styles.UpcommingText}>Upcoming Movies</Text>
               </View>
