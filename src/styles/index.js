@@ -13,6 +13,7 @@ export default StyleSheet.create({
   },
 
   card: {
+    flex: 1,
     backgroundColor: 'white',
     borderRadius: 8,
     paddingVertical: 45,
@@ -47,9 +48,17 @@ export default StyleSheet.create({
     marginTop: 20,
 
   },
-  image: {
-    width: '50%',
-    height: '50%',
+
+  text: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+
+  moviePoster: {
+    resizeMode: 'contain',
+    flex: 1,
+    aspectRatio: 1.5,
   },
 
 });

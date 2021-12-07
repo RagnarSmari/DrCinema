@@ -10,7 +10,7 @@ const CinemaDetailView = function (props) {
   const { cinema } = props.route.params;
   const [movies, setMovies] = useState([]);
   const allMovies = useSelector((s) => s.movies);
-
+  console.log(props);
   useEffect(async () => {
     const myMovies = movieService.getMoviesByCinemaId(cinema.id, allMovies);
     setMovies(myMovies);
@@ -18,28 +18,30 @@ const CinemaDetailView = function (props) {
 
   const renderMovie = ({ item }) => (
     <View style={[styles.card, styles.shadowProp]}>
-      <Text>
-        {item.title}
-      </Text>
       <TouchableOpacity onPress={() => props.navigation.navigate('MovieDetailView', {
         movie: item,
       })}
       >
-        <Image style={{ width: '70%', height: '70%' }} source={{ uri: item.poster }} />
+        <View style={styles.imgContainer}>
+          <Image style={styles.moviePoster} source={{ uri: item.poster }} />
+        </View>
       </TouchableOpacity>
 
+      <Text style={styles.text}>
+        {item.title}
+      </Text>
     </View>
   );
 
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <FlatList
         data={movies}
         renderItem={renderMovie}
-        keyExtractor={(s) => s.id}
         numColumns={1}
         nestedScrollEnabled
         vertical
+        keyExtractor={(s) => s.id}
       />
     </View>
   );
