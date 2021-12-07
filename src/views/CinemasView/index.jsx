@@ -20,25 +20,22 @@ const Cinemas = function ({ navigation: { navigate } }) {
   }, []);
   const allCinemas = useSelector((s) => s.cinemas);
 
-  const renderCinema = ({ item }) => {
-    console.log(item);
-    return (
-      <View style={[styles.card, styles.shadowProp]}>
-        <TouchableOpacity
-          onPress={() => navigate('CinemaDetail', {
-            cinema: item,
-          })}
-        >
-          <View>
-            <Image
-              style={styles.cinemaLogo}
-              source={item.logo}
-            />
-          </View>
-        </TouchableOpacity>
-      </View>
-    );
-  };
+  const renderCinema = ({ item }) => (
+    <View style={[styles.card, styles.shadowProp]}>
+      <TouchableOpacity
+        onPress={() => navigate('CinemaDetail', {
+          cinema: item,
+        })}
+      >
+        <View>
+          <Image
+            style={styles.cinemaLogo}
+            source={item.logo}
+          />
+        </View>
+      </TouchableOpacity>
+    </View>
+  );
   return (
     <View>
       <FlatList

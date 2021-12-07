@@ -12,7 +12,6 @@ const CinemaDetailView = function (props) {
   const { cinema } = props.route.params;
   const [movies, setMovies] = useState([]);
   const allMovies = useSelector((s) => s.movies);
-  console.log(props);
   useEffect(async () => {
     const myMovies = movieService.getMoviesByCinemaId(cinema.id, allMovies);
     setMovies(myMovies);
@@ -24,7 +23,7 @@ const CinemaDetailView = function (props) {
         movie: item,
       })}
       >
-        <View style={styles.imgContainer}>
+        <View>
           <Image style={styles.moviePoster} source={{ uri: item.poster }} />
         </View>
       </TouchableOpacity>

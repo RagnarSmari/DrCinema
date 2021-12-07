@@ -61,4 +61,14 @@ export default StyleSheet.create({
     aspectRatio: 1.5,
   },
 
+  posterWrapper: {
+    flex: 1,
+    alignItems: 'center',
+  },
+
+  image: {
+    resizeMode: 'contain',
+    flex: 1,
+    aspectRatio: 1,
+  },
 });
