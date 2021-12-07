@@ -6,7 +6,12 @@ const getAllMovieSuccess = (allMovies) => ({
   payload: allMovies,
 });
 
-const getAllMovies = () => async (dispatch) => {
+const getAllUpComingMoviesSuccess = (movies) => ({
+  type: constants.GET_ALL_UPCOMINGMOVIES,
+  payload: movies,
+});
+
+export const getAllMovies = () => async (dispatch) => {
   try {
     const allMovies = await movieService.getAllMovies();
     dispatch(getAllMovieSuccess(allMovies));
@@ -14,10 +19,6 @@ const getAllMovies = () => async (dispatch) => {
     // TODO Should dispatch an error action
   }
 };
-const getAllUpComingMoviesSuccess = (movies) => ({
-  type: constants.GET_ALL_UPCOMINGMOVIES,
-  payload: movies,
-});
 export const getAllUpComingMovies = () => async (dispatch) => {
   try {
     const allUpComingMovies = await movieService.getAllUpcomingMovies();

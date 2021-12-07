@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-const MovieDetail = function () {
+const MovieDetail = function (props) {
   const test = 'test';
-
+  const { movie } = props.route.params;
   return (
     <View>
-      <Text>Hello</Text>
+      <Text>{movie.title}</Text>
     </View>
   );
 };

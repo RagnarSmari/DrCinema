@@ -21,7 +21,10 @@ const CinemaDetailView = function (props) {
       <Text>
         {item.title}
       </Text>
-      <TouchableOpacity onPress={() => props.navigation.navigate('MovieDetailView')}>
+      <TouchableOpacity onPress={() => props.navigation.navigate('MovieDetailView', {
+        movie: item,
+      })}
+      >
         <Image style={{ width: '70%', height: '70%' }} source={{ uri: item.poster }} />
       </TouchableOpacity>
 
