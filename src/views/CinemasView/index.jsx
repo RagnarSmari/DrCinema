@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import getAllCinemas from '../../redux/actions/cinemaActions';
-import getAllMovies from '../../redux/actions/movieActions';
+import getAllMovies, { getAllUpComingMovies } from '../../redux/actions/movieActions';
 import styles from '../../styles';
 import * as cinemaLogos from '../../resources';
 import starwars from '../../resources/star-wars-poster.png';
@@ -16,6 +16,7 @@ const Cinemas = function ({ navigation: { navigate } }) {
   useEffect(async () => {
     dispatch(getAllCinemas());
     dispatch(getAllMovies());
+    // dispatch(getAllUpComingMovies());
   }, []);
   const allCinemas = useSelector((s) => s.cinemas);
 
@@ -47,7 +48,7 @@ const Cinemas = function ({ navigation: { navigate } }) {
         keyExtractor={(item) => item.id}
         ListHeaderComponent={() => (
           <>
-            <TouchableOpacity>
+            <TouchableOpacity onpress={() => navigate('upcomingMovies')}>
               <View style={[styles.card, styles.shadowProp, styles.Upcoming]}>
                 <Text style={styles.UpcommingText}>Upcoming Movies</Text>
               </View>
