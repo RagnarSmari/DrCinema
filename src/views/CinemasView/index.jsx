@@ -1,13 +1,14 @@
 import React, { useEffect } from 'react';
 import {
   View, Text, FlatList, Animated, Linking, Image, TouchableOpacity, ScrollView, SafeAreaView,
+  ImageBackground,
 } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import getAllCinemas from '../../redux/actions/cinemaActions';
 import getAllMovies from '../../redux/actions/movieActions';
 import styles from '../../styles';
 import * as cinemaLogos from '../../resources';
-import logo from '../../resources/logo_sambioakureyri.png';
+import starwars from '../../resources/star-wars-poster.png';
 
 // eslint-disable-next-line func-names,react/prop-types
 const Cinemas = function ({ navigation: { navigate } }) {
@@ -31,22 +32,12 @@ const Cinemas = function ({ navigation: { navigate } }) {
             source={item.logo}
           />
         </View>
-
       </TouchableOpacity>
     </View>
 
   );
   return (
-
     <View>
-      <View style={[styles.card, styles.shadowProp, styles.Upcoming]}>
-        <TouchableOpacity>
-          <Text style={styles.UpcommingText}>Upcoming Movies</Text>
-        </TouchableOpacity>
-      </View>
-
-      <Text style={styles.heading}>Cinemas</Text>
-
       <FlatList
         data={allCinemas}
         renderItem={renderCinema}
@@ -54,9 +45,15 @@ const Cinemas = function ({ navigation: { navigate } }) {
         nestedScrollEnabled
         vertical
         keyExtractor={(item) => item.id}
+        ListHeaderComponent={() => (
+          <View style={[styles.card, styles.shadowProp, styles.Upcoming]}>
+            <TouchableOpacity>
+              <Text style={styles.UpcommingText}>Upcoming Movies</Text>
+            </TouchableOpacity>
+          </View>
+        )}
       />
     </View>
-
   );
 };
 

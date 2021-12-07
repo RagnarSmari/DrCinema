@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, FlatList } from 'react-native';
+import {
+  View, Text, FlatList, Image,
+} from 'react-native';
 import { useSelector } from 'react-redux';
 import movieService from '../../services/movieService';
 
@@ -9,21 +11,22 @@ const CinemaDetailView = function (props) {
   const allMovies = useSelector((s) => s.movies);
 
   useEffect(async () => {
-    const biteme = await movieService.getMoviesByCinemaId(cinema.id, allMovies);
-    console.log(biteme);
-    setMovies(biteme);
+    const myMovies = movieService.getMoviesByCinemaId(cinema.id, allMovies);
+    setMovies(myMovies);
   }, []);
 
-  const renderMovie = ({ item }) => {
-    const test = item.id;
-    return (
-      <View>
-        <Text>
-          {item.id}
-        </Text>
-      </View>
-    );
-  };
+  const renderMovie = ({ item }) => (
+    <View>
+      <Image source={{
+        uri: item.poster.toString(),
+      }}
+      />
+      <Text>
+        {item.title}
+      </Text>
+      <Text />
+    </View>
+  );
 
   return (
     <View>

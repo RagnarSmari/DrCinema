@@ -32,17 +32,15 @@ const movieService = {
     } catch (err) { console.log(err); }
   },
 
-  getMoviesByCinemaId: async (cinemaId, movies) => {
+  getMoviesByCinemaId: (cinemaId, movies) => {
     const cinemaMovies = [];
-    for (let i = 0; i < movies.length; i += 1) {
-      const movieShows = movies[i].showtimes;
-      for (let k = 0; k < movieShows.length; i += 1) {
-        if (movieShows[k].cinema.id === cinemaId) {
-          cinemaMovies.push(movies[i]);
+    movies.forEach((m) => {
+      m.showtimes.forEach((s) => {
+        if (s.cinema.id === cinemaId) {
+          cinemaMovies.push(m);
         }
-      }
-    }
-    console.log(`in service${cinemaMovies}`);
+      });
+    });
     return cinemaMovies;
   },
 };

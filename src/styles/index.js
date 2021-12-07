@@ -47,5 +47,9 @@ export default StyleSheet.create({
     marginTop: 20,
 
   },
+  image: {
+    width: '50%',
+    height: '50%',
+  },
 
 });
