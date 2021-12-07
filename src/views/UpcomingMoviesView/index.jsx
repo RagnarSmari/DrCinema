@@ -10,7 +10,7 @@ const UpcomingMoviesView = function (props) {
 
   const renderMovie = ({ item }) => (
     <View style={[styles.card, styles.shadowProp]}>
-      <TouchableOpacity onPress={}>
+      <TouchableOpacity>
         <View style={styles.imgContainer}>
           <Image style={styles.moviePoster} source={{ uri: item.poster }} />
         </View>
@@ -22,7 +22,6 @@ const UpcomingMoviesView = function (props) {
       <Text style={styles.text}>
         {item['release-dateIS']}
       </Text>
-
     </View>
   );
 

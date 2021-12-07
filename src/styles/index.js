@@ -50,7 +50,7 @@ export default StyleSheet.create({
   },
 
   text: {
-    fontSize: 20,
+    fontSize: 15,
     textAlign: 'center',
     margin: 10,
   },

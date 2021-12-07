@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import {
-  View, Text, FlatList, Image, TouchableOpacity,
+  View, Text, FlatList, Image, TouchableOpacity, Linking,
 } from 'react-native';
 import { useSelector } from 'react-redux';
 import movieService from '../../services/movieService';
+import RenderGenres from '../../components/RenderGenres';
 import styles from '../../styles';
+import * as cinemaLogos from '../../resources';
 
 const CinemaDetailView = function (props) {
   const { cinema } = props.route.params;
@@ -30,8 +32,16 @@ const CinemaDetailView = function (props) {
       <Text style={styles.text}>
         {item.title}
       </Text>
+      <FlatList data={item.genres} renderItem={({ item }) => (<RenderGenres item={item} />)} />
+      <Text>
+        {item.year}
+      </Text>
     </View>
   );
+  const { website, phone, description } = cinema;
+  const someText = cinema.description;
+  const secondReplace = someText.replaceAll('<br>', '');
+  const thirdReplace = secondReplace.replace('<b>', '');
 
   return (
     <View style={{ flex: 1 }}>
@@ -42,6 +52,34 @@ const CinemaDetailView = function (props) {
         nestedScrollEnabled
         vertical
         keyExtractor={(s) => s.id}
+        ListHeaderComponent={() => (
+          <>
+            <View style={[styles.card, styles.shadowProp]}>
+              <Image
+                style={styles.cinemaLogo}
+                source={cinema.logo}
+              />
+              <Text style={styles.text}>{thirdReplace}</Text>
+              <Text
+                style={styles.text}
+                onPress={() => { Linking.openURL(`https://${website}`); }}
+              >
+                {cinema.website}
+              </Text>
+              <Text
+                style={styles.text}
+                onPress={() => Linking.openURL(`tel://${phone}`)}
+              >
+                {cinema.phone}
+              </Text>
+            </View>
+
+            <View style={{ marginBottom: 15 }}>
+              <Text style={styles.heading}>Movies</Text>
+            </View>
+          </>
+
+        )}
       />
     </View>
   );
