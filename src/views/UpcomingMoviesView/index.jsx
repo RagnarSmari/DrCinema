@@ -5,11 +5,12 @@ import {
 } from 'react-native';
 import styles from '../../styles';
 
-const UpcomingMoviesView = function () {
+const UpcomingMoviesView = function (props) {
   const movies = useSelector((s) => s.upcomingMovies);
+
   const renderMovie = ({ item }) => (
     <View style={[styles.card, styles.shadowProp]}>
-      <TouchableOpacity onPress={console.log(item)}>
+      <TouchableOpacity onPress={}>
         <View style={styles.imgContainer}>
           <Image style={styles.moviePoster} source={{ uri: item.poster }} />
         </View>
