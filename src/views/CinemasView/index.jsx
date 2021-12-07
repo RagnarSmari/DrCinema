@@ -46,11 +46,17 @@ const Cinemas = function ({ navigation: { navigate } }) {
         vertical
         keyExtractor={(item) => item.id}
         ListHeaderComponent={() => (
-          <View style={[styles.card, styles.shadowProp, styles.Upcoming]}>
+          <>
             <TouchableOpacity>
-              <Text style={styles.UpcommingText}>Upcoming Movies</Text>
+              <View style={[styles.card, styles.shadowProp, styles.Upcoming]}>
+                <Text style={styles.UpcommingText}>Upcoming Movies</Text>
+              </View>
             </TouchableOpacity>
-          </View>
+            <View style={{ marginBottom: 15 }}>
+              <Text style={styles.heading}>Cinemas</Text>
+            </View>
+          </>
+
         )}
       />
     </View>
