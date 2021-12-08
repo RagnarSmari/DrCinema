@@ -3,8 +3,8 @@ import {
   View, Text, Modal, TouchableOpacity, StyleSheet, Button, Alert,
 } from 'react-native';
 import YoutubePlayer from 'react-native-youtube-iframe';
-
 import { WebView } from 'react-native-webview';
+import styles from '../../styles/index';
 
 const UpcomingMovieDetailView = function (props) {
   const [playing, setPlaying] = useState(false);
@@ -21,13 +21,12 @@ const UpcomingMovieDetailView = function (props) {
   }, []);
   const [trailer, setTrailer] = useState(false);
   const { movie } = props.route.params;
-  console.log(Object.keys(movie));
+  const moviearr = movie.trailers[0];
   return (
-    <View>
+    <View style={[styles.card, styles.shadowProp]}>
       {/* eslint-disable-next-line react/prop-types */}
-      <Text>{movie.title}</Text>
-      <Text>Here are the genres</Text>
-      <Text>Here come the trailer</Text>
+      <Text style={styles.heading}>{movie.title}</Text>
+      <Text style={styles.text}>Trailer</Text>
       <View>
         <YoutubePlayer
           height={305}
@@ -35,7 +34,6 @@ const UpcomingMovieDetailView = function (props) {
           videoId="iee2TATGMyI"
           onChangeState={onStateChange}
         />
-        <Button title={playing ? 'pause' : 'play'} onPress={togglePlaying} />
       </View>
     </View>
   );
