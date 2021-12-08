@@ -39,7 +39,7 @@ const CinemaDetailView = function (props) {
   );
   const { website, phone, description } = cinema;
   const someText = cinema.description;
-  const secondReplace = someText.replaceAll('<br>', '');
+  const secondReplace = someText.replace('<br>', '');
   const thirdReplace = secondReplace.replace('<b>', '');
 
   return (

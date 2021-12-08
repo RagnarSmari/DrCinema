@@ -5,6 +5,7 @@ import Cinemas from '../views/CinemasView';
 import CinemaDetailView from '../views/CinemaDetailView';
 import MovieDetailView from '../views/MovieDetailView';
 import upcomingMovies from '../views/UpcomingMoviesView';
+import UpcomingMovieDetailView from '../views/UpcomingMovieDetailView';
 
 const Stack = createStackNavigator();
 
@@ -16,6 +17,7 @@ const Routes = function () {
         <Stack.Screen name="CinemaDetail" component={CinemaDetailView} />
         <Stack.Screen name="MovieDetailView" component={MovieDetailView} />
         <Stack.Screen name="upcomingMovies" component={upcomingMovies} />
+        <Stack.Screen name="upcomingMovieDetail" component={UpcomingMovieDetailView} />
       </Stack.Navigator>
     </NavigationContainer>
   );

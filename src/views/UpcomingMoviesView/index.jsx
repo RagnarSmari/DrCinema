@@ -10,7 +10,10 @@ const UpcomingMoviesView = function (props) {
 
   const renderMovie = ({ item }) => (
     <View style={[styles.card, styles.shadowProp]}>
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => props.navigation.navigate('upcomingMovieDetail', {
+        movie: item,
+      })}
+      >
         <View style={styles.imgContainer}>
           <Image style={styles.moviePoster} source={{ uri: item.poster }} />
         </View>
