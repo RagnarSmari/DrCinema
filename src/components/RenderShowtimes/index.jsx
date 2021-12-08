@@ -12,7 +12,7 @@ const RenderShowtimes = function ({ item }) {
     <View>
       <Text>{item.time}</Text>
       <View>
-        <Button title="Kaupa Miða 🎞️ " onPress={() => { Linking.openURL(`https://${website}`); }} />
+        <Button title="Kaupa Miða 🎞️ " onPress={() => { Linking.openURL(website); }} />
       </View>
     </View>
   );
