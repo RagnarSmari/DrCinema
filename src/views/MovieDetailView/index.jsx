@@ -8,9 +8,9 @@ import styles from '../../styles';
 
 const MovieDetail = function (props) {
   const { movie } = props.route.params;
-  console.log(Object.keys(movie));
   const tickets = movie.showtimes[0];
-  console.log(`MIÐAR HER PRINTED${tickets.schedule[0]}`);
+  const ticketshowtime = tickets.schedule;
+
   return (
     <View style={[styles.card, styles.shadowProp]}>
       <View style={styles.posterWrapper}>
@@ -37,7 +37,7 @@ const MovieDetail = function (props) {
       />
       <FlatList
         numColumns={1}
-        data={movie.showtimes}
+        data={ticketshowtime}
         renderItem={({ item }) => (<RenderShowtimes item={item} />)}
       />
     </View>
