@@ -3,7 +3,6 @@ import {
   View, Text, Modal, TouchableOpacity, StyleSheet, Button, Alert,
 } from 'react-native';
 import YoutubePlayer from 'react-native-youtube-iframe';
-import { WebView } from 'react-native-webview';
 import styles from '../../styles/index';
 
 const UpcomingMovieDetailView = function (props) {

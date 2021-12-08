@@ -2,6 +2,7 @@ import React from 'react';
 import {
   View, Text, Linking, Button,
 } from 'react-native';
+import styles from '../../styles';
 
 const RenderShowtimes = function ({ item }) {
   console.log('im here');
@@ -10,7 +11,7 @@ const RenderShowtimes = function ({ item }) {
   const website = item.purchase_url;
   return (
     <View>
-      <Text>{item.time}</Text>
+      <Text style={styles.text}>{item.time}</Text>
       <View>
         <Button title="Kaupa Miða 🎞️ " onPress={() => { Linking.openURL(website); }} />
       </View>
