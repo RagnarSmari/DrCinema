@@ -3,11 +3,14 @@ import {
   View, Text, FlatList, Image,
 } from 'react-native';
 import RenderGenres from '../../components/RenderGenres';
+import RenderShowtimes from '../../components/RenderShowtimes';
 import styles from '../../styles';
 
 const MovieDetail = function (props) {
   const { movie } = props.route.params;
   console.log(Object.keys(movie));
+  const tickets = movie.showtimes[0];
+  console.log(`MIÐAR HER PRINTED${tickets.schedule[0]}`);
   return (
     <View style={[styles.card, styles.shadowProp]}>
       <View style={styles.posterWrapper}>
@@ -31,6 +34,11 @@ const MovieDetail = function (props) {
         numColumns={4}
         data={movie.genres}
         renderItem={({ item }) => (<RenderGenres item={item} />)}
+      />
+      <FlatList
+        numColumns={1}
+        data={movie.showtimes}
+        renderItem={({ item }) => (<RenderShowtimes item={item} />)}
       />
     </View>
   );

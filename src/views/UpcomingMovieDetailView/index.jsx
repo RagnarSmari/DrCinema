@@ -31,7 +31,7 @@ const UpcomingMovieDetailView = function (props) {
         <YoutubePlayer
           height={305}
           play={playing}
-          videoId="iee2TATGMyI"
+          baseUrlOverride={moviearr.results[0].url}
           onChangeState={onStateChange}
         />
       </View>
