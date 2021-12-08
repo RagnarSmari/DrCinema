@@ -30,7 +30,7 @@ export default StyleSheet.create({
   },
 
   Upcoming: {
-    backgroundColor: 'orange',
+    backgroundColor: '#0dbcd4',
     marginTop: 20,
   },
 

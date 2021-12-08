@@ -8,7 +8,7 @@ import getAllCinemas from '../../redux/actions/cinemaActions';
 import getAllMovies, { getAllUpComingMovies } from '../../redux/actions/movieActions';
 import styles from '../../styles';
 import * as cinemaLogos from '../../resources';
-import starwars from '../../resources/star-wars-poster.png';
+import logo from '../../resources/logo.png';
 
 // eslint-disable-next-line func-names,react/prop-types
 const Cinemas = function ({ navigation: { navigate } }) {
@@ -19,7 +19,7 @@ const Cinemas = function ({ navigation: { navigate } }) {
     dispatch(getAllUpComingMovies());
   }, []);
   const allCinemas = useSelector((s) => s.cinemas);
-
+  console.log(logo);
   const renderCinema = ({ item }) => (
     <View style={[styles.card, styles.shadowProp]}>
       <TouchableOpacity
@@ -47,6 +47,7 @@ const Cinemas = function ({ navigation: { navigate } }) {
         keyExtractor={(item) => item.id}
         ListHeaderComponent={() => (
           <>
+
             <TouchableOpacity onPress={() => navigate('upcomingMovies')}>
               <View style={[styles.card, styles.shadowProp, styles.Upcoming]}>
                 <Text style={styles.UpcommingText}>Upcoming Movies</Text>

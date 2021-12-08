@@ -7,6 +7,7 @@ import styles from '../../styles';
 
 const MovieDetail = function (props) {
   const { movie } = props.route.params;
+  console.log(Object.keys(movie));
   return (
     <View style={[styles.card, styles.shadowProp]}>
       <View style={styles.posterWrapper}>
@@ -18,6 +19,8 @@ const MovieDetail = function (props) {
         Lengd:
         {' '}
         {movie.durationMinutes}
+        {' '}
+        min.
         {' - '}
         Útgáfudagur:
         {' '}
@@ -25,6 +28,7 @@ const MovieDetail = function (props) {
       </Text>
       <Text style={styles.text}>{movie.plot}</Text>
       <FlatList
+        numColumns={4}
         data={movie.genres}
         renderItem={({ item }) => (<RenderGenres item={item} />)}
       />

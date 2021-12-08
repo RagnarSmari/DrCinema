@@ -31,7 +31,11 @@ const CinemaDetailView = function (props) {
       <Text style={styles.text}>
         {item.title}
       </Text>
-      <FlatList data={item.genres} renderItem={({ item }) => (<RenderGenres item={item} />)} />
+      <FlatList
+        numColumns={4}
+        data={item.genres}
+        renderItem={({ item }) => (<RenderGenres item={item} />)}
+      />
       <Text>
         {item.year}
       </Text>
