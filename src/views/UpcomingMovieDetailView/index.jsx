@@ -30,7 +30,7 @@ const UpcomingMovieDetailView = function (props) {
       <Text>Here come the trailer</Text>
       <View>
         <YoutubePlayer
-          height={300}
+          height={305}
           play={playing}
           videoId="iee2TATGMyI"
           onChangeState={onStateChange}
