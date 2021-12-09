@@ -13,6 +13,16 @@ const akureyri = require('../../resources/logo_sambioakureyri.png');
 const selfoss = require('../../resources/logo_selfoss.png');
 const keflavik = require('../../resources/logo_keflavik.png');
 
+function compare(a, b) {
+  if (a.name.toLowerCase() < b.name.toLowerCase()) {
+    return -1;
+  }
+  if (a.name.toLowerCase() > b.name.toLowerCase()) {
+    return 1;
+  }
+  return 0;
+}
+
 const getAllCinemasSuccess = (allCinemas) => ({
   type: constants.GET_ALL_CINEMAS,
   payload: allCinemas,
@@ -23,7 +33,8 @@ const getAllCinemas = () => async (dispatch) => {
     const allCinemas = await cinemaService.getAllCinemas();
     // eslint-disable-next-line no-use-before-define
     linkLogosToCinemas(allCinemas);
-    dispatch(getAllCinemasSuccess(allCinemas));
+    const sortedCinemas = allCinemas.sort(compare);
+    dispatch(getAllCinemasSuccess(sortedCinemas));
   } catch (err) {
     // TODO: Should dispatch an error action
   }
