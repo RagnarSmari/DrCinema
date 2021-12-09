@@ -14,6 +14,7 @@ const CinemaDetailView = function (props) {
   const [movies, setMovies] = useState([]);
   const [noMovies, setNoMovies] = useState(false);
   const allMovies = useSelector((s) => s.movies);
+
   useEffect(async () => {
     const myMovies = movieService.getMoviesByCinemaId(cinema.id, allMovies);
     setMovies(myMovies);
@@ -42,12 +43,17 @@ const CinemaDetailView = function (props) {
         {' '}
         {item.year}
       </Text>
-      <FlatList
-        numColumns={4}
-        data={item.genres}
-        keyExtractor={(id) => item.id}
-        renderItem={({ item }) => (<RenderGenres item={item} />)}
-      />
+      <View style={{
+        flexDirection: 'row', flex: 1, justifyContent: 'center', marginBottom: 20,
+      }}
+      >
+        <FlatList
+          numColumns={4}
+          data={item.genres}
+          keyExtractor={(id) => item.id}
+          renderItem={({ item }) => (<RenderGenres item={item} />)}
+        />
+      </View>
     </View>
   );
   const { website, phone, description } = newCinema;
@@ -69,56 +75,70 @@ const CinemaDetailView = function (props) {
     thirdReplace = secondReplace.replace('<b>', '');
   }
 
+  const renderTheMovies = () => {
+    if (!noMovies) {
+      console.log('no movies');
+      return (
+        <View style={{ height: 150 }}>
+          <Text style={{ fontSize: 35 }}>Oh nooo no movies</Text>
+        </View>
+
+      );
+    }
+
+    return (
+      <FlatList
+        data={movies}
+        renderItem={renderMovie}
+        numColumns={1}
+        nestedScrollEnabled
+        vertical
+        keyExtractor={(s) => s.id}
+        ListHeaderComponent={() => (
+          <>
+            <View style={[styles.card, styles.shadowProp]}>
+              <Image
+                style={styles.cinemaLogo}
+                source={cinema.logo}
+              />
+              <Text style={styles.text}>{thirdReplace}</Text>
+              <Text
+                style={styles.text}
+                onPress={() => { Linking.openURL(`https://${website}`); }}
+              >
+                {cinema.website}
+              </Text>
+              <Text
+                style={styles.text}
+                onPress={() => Linking.openURL(`tel://${phone}`)}
+              >
+                {newCinema.phone}
+                {newCinema.phone}
+              </Text>
+
+              <Text style={styles.text}>
+                {newCinema.address}
+                {' '}
+                -
+                {' '}
+                {newCinema.city}
+
+              </Text>
+            </View>
+
+            <View style={{ marginBottom: 15 }}>
+              <Text style={styles.heading}>Movies</Text>
+            </View>
+          </>
+
+        )}
+      />
+    );
+  };
+
   return (
     <View>
-      {!noMovies ? <Text>Condition True = no list</Text>
-        : (
-          <FlatList
-            data={movies}
-            renderItem={renderMovie}
-            numColumns={1}
-            nestedScrollEnabled
-            vertical
-            keyExtractor={(s) => s.id}
-            ListHeaderComponent={() => (
-              <>
-                <View style={[styles.card, styles.shadowProp]}>
-                  <Image
-                    style={styles.cinemaLogo}
-                    source={cinema.logo}
-                  />
-                  <Text style={styles.text}>{thirdReplace}</Text>
-                  <Text
-                    style={styles.text}
-                    onPress={() => { Linking.openURL(`https://${website}`); }}
-                  >
-                    {cinema.website}
-                  </Text>
-                  <Text
-                    style={styles.text}
-                    onPress={() => Linking.openURL(`tel://${phone}`)}
-                  >
-                    {newCinema.phone}
-                  </Text>
-
-                  <Text style={styles.text}>
-                    {newCinema.address}
-                    {' '}
-                    -
-                    {' '}
-                    {newCinema.city}
-
-                  </Text>
-                </View>
-
-                <View style={{ marginBottom: 15 }}>
-                  <Text style={styles.heading}>Movies</Text>
-                </View>
-              </>
-
-            )}
-          />
-        )}
+      {renderTheMovies()}
     </View>
 
   );

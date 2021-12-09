@@ -4,7 +4,11 @@ import styles from './style';
 
 const RenderGenres = function ({ item }) {
   return (
-    <View style={styles.container}>
+    <View style={{
+      flexDirection: 'row',
+      justifyContent: 'center',
+    }}
+    >
       <View style={styles.card}>
         <Text style={styles.text}>{item.Name}</Text>
       </View>

@@ -1,10 +1,11 @@
 import React from 'react';
 import {
-  View, Text, FlatList, Image,
+  View, Text, FlatList, Image, ScrollView, SafeAreaView,
 } from 'react-native';
 import RenderGenres from '../../components/RenderGenres';
 import RenderShowtimes from '../../components/RenderShowtimes';
 import styles from '../../styles';
+import nativeStyle from './styles';
 
 const MovieDetail = function (props) {
   const { movie, cinemaId } = props.route.params;
@@ -17,36 +18,57 @@ const MovieDetail = function (props) {
       });
     }
   });
-  return (
-    <View style={[styles.card, styles.shadowProp]}>
-      <View style={styles.posterWrapper}>
-        <Image style={styles.image} source={{ uri: movie.poster }} />
-      </View>
 
-      <Text style={styles.heading}>{movie.title}</Text>
-      <Text style={styles.text}>
-        Lengd:
-        {' '}
-        {movie.durationMinutes}
-        {' '}
-        min.
-        {' - '}
-        Útgáfudagur:
-        {' '}
-        {movie.year}
-      </Text>
-      <Text style={styles.textPilot}>{movie.plot}</Text>
-      <FlatList
-        numColumns={4}
-        data={movie.genres}
-        renderItem={({ item }) => (<RenderGenres item={item} />)}
-      />
-      <FlatList
-        numColumns={1}
-        data={tickets}
-        renderItem={({ item }) => (<RenderShowtimes item={item} />)}
-      />
+  const renderthetickets = () => tickets.map((s) => (
+    <RenderShowtimes item={s} />
+  ));
+
+  const renderthegenres = () => movie.genres.map((s) => (
+    <View style={{
+      flexDirection: 'row',
+      justifyContent: 'center',
+    }}
+    >
+      <View style={styles.card}>
+        <Text style={styles.text}>{s.Name}</Text>
+      </View>
     </View>
+  ));
+  return (
+    <ScrollView>
+      <View style={nativeStyle.mainContainer}>
+        <View>
+          <Image style={styles.image} source={{ uri: movie.poster }} />
+        </View>
+        <Text style={styles.heading}>{movie.title}</Text>
+        <Text style={styles.text}>
+          Lengd:
+          {' '}
+          {movie.durationMinutes}
+          {' '}
+          min.
+          {' - '}
+          Útgáfudagur:
+          {' '}
+          {movie.year}
+        </Text>
+        <Text style={styles.textPilot}>{movie.plot}</Text>
+        <View style={{
+          flexDirection: 'row',
+          flex: 1,
+          justifyContent: 'center',
+          marginBottom: 20,
+        }}
+        >
+          <View style={nativeStyle.genres}>
+            {renderthegenres()}
+          </View>
+
+        </View>
+        {renderthetickets()}
+      </View>
+    </ScrollView>
+
   );
 };
 

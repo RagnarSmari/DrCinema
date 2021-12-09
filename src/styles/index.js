@@ -12,6 +12,16 @@ export default StyleSheet.create({
     width: '100%',
   },
 
+  testCard: {
+    flex: 1,
+    backgroundColor: 'white',
+    borderRadius: 8,
+    paddingVertical: 45,
+    paddingHorizontal: 30,
+    width: '100%',
+    marginVertical: 10,
+  },
+
   card: {
     flex: 1,
     backgroundColor: 'white',
@@ -51,7 +61,6 @@ export default StyleSheet.create({
   text: {
     fontSize: 15,
     textAlign: 'center',
-    margin: 10,
   },
 
   textPilot: {
@@ -67,7 +76,8 @@ export default StyleSheet.create({
   },
 
   posterWrapper: {
-    flex: 1,
+    width: '100%',
+    height: '50%',
     alignItems: 'center',
   },
 

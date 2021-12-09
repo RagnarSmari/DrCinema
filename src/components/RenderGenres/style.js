@@ -5,6 +5,7 @@ export default StyleSheet.create({
   container: {
     flexDirection: 'row',
     justifyContent: 'center',
+    alignItems: 'center',
   },
   card: {
 
