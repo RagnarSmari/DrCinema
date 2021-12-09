@@ -32,7 +32,14 @@ const Cinemas = function ({ navigation: { navigate } }) {
             style={styles.cinemaLogo}
             source={item.logo}
           />
+
         </View>
+        <Text
+          style={styles.text}
+          onPress={() => { Linking.openURL(`https://${item.website}`); }}
+        >
+          {item.website}
+        </Text>
       </TouchableOpacity>
     </View>
   );
@@ -50,11 +57,11 @@ const Cinemas = function ({ navigation: { navigate } }) {
 
             <TouchableOpacity onPress={() => navigate('upcomingMovies')}>
               <View style={[styles.card, styles.shadowProp, styles.Upcoming]}>
-                <Text style={styles.UpcommingText}>Upcoming Movies</Text>
+                <Text style={styles.UpcommingText}>Væntanlegar myndir</Text>
               </View>
             </TouchableOpacity>
             <View style={{ marginBottom: 15 }}>
-              <Text style={styles.heading}>Cinemas</Text>
+              <Text style={styles.heading}>Myndir</Text>
             </View>
           </>
 

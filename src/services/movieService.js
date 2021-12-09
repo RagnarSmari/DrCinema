@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { useSelector } from 'react-redux';
 import getToken from './tokenService';
 
 const ENDPOINT = 'https://api.kvikmyndir.is/movies';
@@ -18,7 +17,6 @@ const movieService = {
       return res.data;
     } catch (err) { console.log(err); }
   },
-
   // eslint-disable-next-line consistent-return
   getAllUpcomingMovies: async () => {
     try {
