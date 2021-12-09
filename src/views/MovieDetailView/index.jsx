@@ -35,7 +35,7 @@ const MovieDetail = function (props) {
         {' '}
         {movie.year}
       </Text>
-      <Text style={styles.text}>{movie.plot}</Text>
+      <Text style={styles.textPilot}>{movie.plot}</Text>
       <FlatList
         numColumns={4}
         data={movie.genres}

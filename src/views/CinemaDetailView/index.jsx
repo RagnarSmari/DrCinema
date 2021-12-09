@@ -99,7 +99,6 @@ const CinemaDetailView = function (props) {
                     onPress={() => Linking.openURL(`tel://${phone}`)}
                   >
                     {newCinema.phone}
-                    {newCinema.phone}
                   </Text>
 
                   <Text style={styles.text}>

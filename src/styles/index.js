@@ -20,8 +20,8 @@ export default StyleSheet.create({
     paddingHorizontal: 30,
     width: '100%',
     marginVertical: 10,
-
   },
+
   shadowProp: {
     shadowColor: '#171717',
     shadowOffset: { width: -5, height: 4 },
@@ -30,8 +30,8 @@ export default StyleSheet.create({
   },
 
   Upcoming: {
-    backgroundColor: '#0dbcd4',
     marginTop: 20,
+    backgroundColor: '#17e17c',
   },
 
   UpcommingText: {
@@ -46,12 +46,17 @@ export default StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginTop: 20,
-
   },
 
   text: {
     fontSize: 15,
     textAlign: 'center',
+    margin: 10,
+  },
+
+  textPilot: {
+    fontSize: 15,
+    textAlign: 'left',
     margin: 10,
   },
 
