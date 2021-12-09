@@ -10,10 +10,7 @@ import * as cinemaLogos from '../../resources';
 
 const CinemaDetailView = function (props) {
   const { cinema } = props.route.params;
-
   const newCinema = JSON.parse(JSON.stringify(cinema).replace('\\t', ''));
-  console.log(newCinema.id);
-
   const [movies, setMovies] = useState([]);
   const [noMovies, setNoMovies] = useState(false);
   const allMovies = useSelector((s) => s.movies);
@@ -29,6 +26,7 @@ const CinemaDetailView = function (props) {
     <View style={[styles.card, styles.shadowProp]}>
       <TouchableOpacity onPress={() => props.navigation.navigate('MovieDetailView', {
         movie: item,
+        cinemaId: newCinema.id,
       })}
       >
         <View>
@@ -47,16 +45,15 @@ const CinemaDetailView = function (props) {
       <FlatList
         numColumns={4}
         data={item.genres}
+        keyExtractor={(id) => item.id}
         renderItem={({ item }) => (<RenderGenres item={item} />)}
       />
     </View>
   );
-
   const { website, phone, description } = newCinema;
-  console.log();
   let thirdReplace;
   if (!noMovies) {
-    if (newCinema.description === null) {
+    if (cinema.description === null) {
       thirdReplace = '';
     } else {
       const someText = newCinema.description;
@@ -88,19 +85,20 @@ const CinemaDetailView = function (props) {
                 <View style={[styles.card, styles.shadowProp]}>
                   <Image
                     style={styles.cinemaLogo}
-                    source={newCinema.logo}
+                    source={cinema.logo}
                   />
                   <Text style={styles.text}>{thirdReplace}</Text>
                   <Text
                     style={styles.text}
                     onPress={() => { Linking.openURL(`https://${website}`); }}
                   >
-                    {newCinema.website}
+                    {cinema.website}
                   </Text>
                   <Text
                     style={styles.text}
                     onPress={() => Linking.openURL(`tel://${phone}`)}
                   >
+                    {newCinema.phone}
                     {newCinema.phone}
                   </Text>
 
@@ -115,7 +113,7 @@ const CinemaDetailView = function (props) {
                 </View>
 
                 <View style={{ marginBottom: 15 }}>
-                  <Text style={styles.heading}>Myndir</Text>
+                  <Text style={styles.heading}>Movies</Text>
                 </View>
               </>
 
@@ -123,6 +121,7 @@ const CinemaDetailView = function (props) {
           />
         )}
     </View>
+
   );
 };
 

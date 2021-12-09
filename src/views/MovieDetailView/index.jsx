@@ -7,10 +7,16 @@ import RenderShowtimes from '../../components/RenderShowtimes';
 import styles from '../../styles';
 
 const MovieDetail = function (props) {
-  const { movie } = props.route.params;
-  const tickets = movie.showtimes[0];
-  const ticketshowtime = tickets.schedule;
-
+  const { movie, cinemaId } = props.route.params;
+  const tickets = [];
+  movie.showtimes.forEach((s) => {
+    console.log(Object.keys(s.cinema));
+    if (s.cinema.id === cinemaId) {
+      s.schedule.forEach((agust) => {
+        tickets.push(agust);
+      });
+    }
+  });
   return (
     <View style={[styles.card, styles.shadowProp]}>
       <View style={styles.posterWrapper}>
@@ -37,7 +43,7 @@ const MovieDetail = function (props) {
       />
       <FlatList
         numColumns={1}
-        data={ticketshowtime}
+        data={tickets}
         renderItem={({ item }) => (<RenderShowtimes item={item} />)}
       />
     </View>

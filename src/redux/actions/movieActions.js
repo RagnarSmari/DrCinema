@@ -2,10 +2,10 @@ import * as constants from '../constants';
 import movieService from '../../services/movieService';
 
 function compare(a, b) {
-  if (a.title.toLowerCase() < b.title.toLowerCase()) {
+  if (a['release-dateIS'].toLowerCase() < b['release-dateIS'].toLowerCase()) {
     return -1;
   }
-  if (a.title.toLowerCase() > b.title.toLowerCase()) {
+  if (a['release-dateIS'].toLowerCase() > b['release-dateIS'].toLowerCase()) {
     return 1;
   }
   return 0;
@@ -24,8 +24,7 @@ const getAllUpComingMoviesSuccess = (movies) => ({
 export const getAllMovies = () => async (dispatch) => {
   try {
     const allMovies = await movieService.getAllMovies();
-    const sortedMovies = allMovies.sort(compare);
-    dispatch(getAllMovieSuccess(sortedMovies));
+    dispatch(getAllMovieSuccess(allMovies));
   } catch (e) {
     // TODO Should dispatch an error action
   }
