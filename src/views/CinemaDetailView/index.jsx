@@ -44,7 +44,10 @@ const CinemaDetailView = function (props) {
         {item.year}
       </Text>
       <View style={{
-        flexDirection: 'row', flex: 1, justifyContent: 'center', marginBottom: 20,
+        flexDirection: 'row',
+        flex: 1,
+        justifyContent: 'center',
+        marginBottom: 20,
       }}
       >
         <FlatList
@@ -113,7 +116,6 @@ const CinemaDetailView = function (props) {
                 onPress={() => Linking.openURL(`tel://${phone}`)}
               >
                 {newCinema.phone}
-                {newCinema.phone}
               </Text>
 
               <Text style={styles.text}>
@@ -127,7 +129,7 @@ const CinemaDetailView = function (props) {
             </View>
 
             <View style={{ marginBottom: 15 }}>
-              <Text style={styles.heading}>Movies</Text>
+              <Text style={styles.heading}>Myndir</Text>
             </View>
           </>
 

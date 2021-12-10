@@ -60,8 +60,13 @@ const MovieDetail = function (props) {
           marginBottom: 20,
         }}
         >
-          <View style={nativeStyle.genres}>
-            {renderthegenres()}
+          <View>
+            <FlatList
+              numColumns={4}
+              data={movie.genres}
+              keyExtractor={(id) => movie.id}
+              renderItem={({ item }) => (<RenderGenres item={item} />)}
+            />
           </View>
 
         </View>
