@@ -85,5 +85,6 @@ export default StyleSheet.create({
     resizeMode: 'contain',
     flex: 1,
     aspectRatio: 1,
+
   },
 });

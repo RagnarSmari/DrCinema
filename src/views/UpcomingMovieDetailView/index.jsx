@@ -33,7 +33,12 @@ const UpcomingMovieDetailView = function (props) {
     if (noTrailer) {
       return (
         <View>
-          <Image source={trailerImage} />
+          <Image
+            style={{
+              width: '90%', height: '80%', marginTop: 50, justifyContent: 'center', alignItems: 'center',
+            }}
+            source={trailerImage}
+          />
         </View>
       );
     }
@@ -53,7 +58,6 @@ const UpcomingMovieDetailView = function (props) {
     <View style={[styles.card, styles.shadowProp]}>
       {/* eslint-disable-next-line react/prop-types */}
       <Text style={styles.heading}>{movie.title}</Text>
-      <Text style={styles.text}>Trailer</Text>
       {someTrailer()}
     </View>
   );
