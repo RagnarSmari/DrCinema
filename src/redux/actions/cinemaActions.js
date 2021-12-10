@@ -1,3 +1,4 @@
+import latinize from 'latinize';
 import cinemaService from '../../services/cinemaService';
 import * as constants from '../constants';
 
@@ -14,10 +15,10 @@ const selfoss = require('../../resources/logo_selfoss.png');
 const keflavik = require('../../resources/logo_keflavik.png');
 
 function compare(a, b) {
-  if (a.name.toLowerCase() < b.name.toLowerCase()) {
+  if (latinize(a.name.toLowerCase()) < latinize(b.name.toLowerCase())) {
     return -1;
   }
-  if (a.name.toLowerCase() > b.name.toLowerCase()) {
+  if (latinize(a.name.toLowerCase()) > latinize(b.name.toLowerCase())) {
     return 1;
   }
   return 0;

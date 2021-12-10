@@ -24,15 +24,7 @@ const MovieDetail = function (props) {
   ));
 
   const renderthegenres = () => movie.genres.map((s) => (
-    <View style={{
-      flexDirection: 'row',
-      justifyContent: 'center',
-    }}
-    >
-      <View style={styles.card}>
-        <Text style={styles.text}>{s.Name}</Text>
-      </View>
-    </View>
+    <RenderGenres item={s} />
   ));
   return (
     <ScrollView>
@@ -60,17 +52,21 @@ const MovieDetail = function (props) {
           marginBottom: 20,
         }}
         >
-          <View>
-            <FlatList
-              numColumns={4}
-              data={movie.genres}
-              keyExtractor={(id) => movie.id}
-              renderItem={({ item }) => (<RenderGenres item={item} />)}
-            />
+          <View style={{
+            flex: 1, flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap',
+          }}
+          >
+            {renderthegenres()}
           </View>
 
         </View>
-        {renderthetickets()}
+        <View style={{
+          flex: 1, justifyContent: 'center', flexDirection: 'column', alignItems: 'center',
+        }}
+        >
+          {renderthetickets()}
+        </View>
+
       </View>
     </ScrollView>
 
