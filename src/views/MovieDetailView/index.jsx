@@ -11,7 +11,6 @@ const MovieDetail = function (props) {
   const { movie, cinemaId } = props.route.params;
   const tickets = [];
   movie.showtimes.forEach((s) => {
-    console.log(Object.keys(s.cinema));
     if (s.cinema.id === cinemaId) {
       s.schedule.forEach((agust) => {
         tickets.push(agust);
@@ -20,11 +19,11 @@ const MovieDetail = function (props) {
   });
 
   const renderthetickets = () => tickets.map((s) => (
-    <RenderShowtimes item={s} />
+    <RenderShowtimes key={Math.random() * 1998549} item={s} />
   ));
 
   const renderthegenres = () => movie.genres.map((s) => (
-    <RenderGenres item={s} />
+    <RenderGenres key={Math.random() * 1998549} item={s} />
   ));
   return (
     <ScrollView>
